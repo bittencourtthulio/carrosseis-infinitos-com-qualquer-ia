@@ -1,4 +1,4 @@
-# Capítulo 2 — A fábrica em cinco estágios
+# Capítulo 2: A fábrica em cinco estágios
 
 **Tempo de leitura:** 14 min
 **O que você sai sabendo:** a esteira completa que transforma um catálogo bruto em uma série de carrosséis prontos para postar, com nome, entrada, saída e ferramenta de cada estágio.
@@ -11,11 +11,15 @@ A fábrica de carrosséis não é uma ferramenta única, é uma esteira de cinco
 A sequência, do começo ao fim:
 
 ```
-Estágio 1: Fonte de dados      →  catálogo bruto (Sheets ou CSV)
-Estágio 2: Gerador de copy     →  contrato de copy (Sheets com colunas)
+Estágio 1: Fonte de dados      →  catálogo bruto (Sheets ou 
+    CSV)
+Estágio 2: Gerador de copy     →  contrato de copy
+    (Sheets com colunas)
 Estágio 3: Captura de prints   →  pasta de imagens por item
-Estágio 4: Renderizador        →  PNGs 1080×1350 prontos para postar
-Estágio 5: Publicador          →  posts agendados no Instagram
+Estágio 4: Renderizador        →  PNGs 1080×1350 prontos
+    para postar
+Estágio 5: Publicador          →  posts agendados no
+    Instagram
 ```
 
 A sequência parece óbvia depois que você conhece, mas no jeito 1 (capítulo 1) ela some. No jeito 1, o "estágio 2" é o prompt que você digita a cada peça, e os estágios 3, 4 e 5 são feitos na mão, peça por peça. No jeito 2, cada estágio é um passo que você automatiza uma vez e roda em escala.
@@ -77,25 +81,32 @@ O resultado do estágio 5 é a série no ar, agendada, com a legenda certa, o ho
 
 ```
 Você é meu arquiteto de produção de conteúdo. Quero produzir
-[N, ex: 100, 200, 500] carrosséis sobre [TEMA, ex: ferramentas
-de IA para programadores] para vender [PRODUTO/SERVIÇO/IDEIA].
+[N, 
+    ex: 100, 200, 500] carrosséis sobre [TEMA,
+    ex: ferramentas de IA para programadores]
+    para vender [PRODUTO/SERVIÇO/IDEIA].
 
 Me ajude a desenhar a esteira em 5 estágios, no mesmo padrão
 que vou te explicar:
 
-  Estágio 1: Fonte de dados. Entrada: [descreva o que você tem].
+  Estágio 1: Fonte de dados. Entrada: [descreva o que
+    você tem].
   Saída: planilha bruta. Ferramenta sugerida: Google Sheets.
-  Estágio 2: Gerador de copy. Entrada: planilha do estágio 1.
+  Estágio 2: Gerador de copy. Entrada: planilha do
+    estágio 1.
   Saída: planilha de copy com 8 slides por item. Ferramenta:
   ChatGPT/Claude/Gemini + Sheets.
-  Estágio 3: Captura de prints. Entrada: planilha do estágio 2.
+  Estágio 3: Captura de prints. Entrada: planilha do
+    estágio 2.
   Saída: pasta de imagens. Ferramenta: extensão de Chrome ou
   script.
   Estágio 4: Renderizador. Entrada: planilha do estágio 2 e
-  pasta de imagens. Saída: PNGs 1080x1350. Ferramenta: script
+  pasta de imagens. Saída: PNGs 1080x1350. Ferramenta:
+    script
   Python no Google Colab OU Canva manual.
   Estágio 5: Publicador. Entrada: PNGs do estágio 4. Saída:
-  posts agendados. Ferramenta: Buffer, Later ou Meta Business
+  posts agendados. Ferramenta: Buffer, 
+    Later ou Meta Business
   Suite.
 
 Para CADA estágio, me dê:
@@ -109,7 +120,15 @@ Termine com a lista do que eu preciso ter aberto antes de
 começar (contas, planilhas, pastas).
 ```
 
-(O prompt completo, com exemplos preenchidos para vários nichos, está em `prompts/cap-02-cinco-estagios.md` no repositório público.)
+
+
+**QR code do prompt:**
+
+![QR code do prompt cap-02-cinco-estagios](../figuras/qr_box/cap-02-cinco-estagios.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-02-cinco-estagios.md)
+
+(O prompt completo, com instruções de uso e variações para Claude e Gemini, está em `prompts/cap-02-cinco-estagios.md` no repositório público.)
 
 ## O que conferir
 
@@ -120,3 +139,15 @@ começar (contas, planilhas, pastas).
 ## O que muda amanhã de manhã
 
 Você vai abrir o Google Drive e criar uma pasta com cinco subpastas, uma por estágio. Os nomes das subpastas viram o esqueleto da fábrica: `01-catalogo`, `02-copy`, `03-prints`, `04-pngs`, `05-publicados`. Amanhã, quando você gerar o primeiro item, ele vai morar nessas pastas. Em duas semanas, as pastas vão ter 418 itens cada. Em dois meses, você vai abrir a próxima série em uma fábrica que já existe.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 02 - A fabrica em cinco estagios
+
+![QR code do Prompt 02 - A fabrica em cinco estagios](../figuras/qr_box/cap-02-cinco-estagios.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-02-cinco-estagios.md)  
+Arquivo: `prompts/cap-02-cinco-estagios.md` no repositorio publico.
+

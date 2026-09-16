@@ -1,4 +1,4 @@
-# Capítulo 10 — Replicar para qualquer série + checklist final
+# Capítulo 10: Replicar para qualquer série + checklist final
 
 **Tempo de leitura:** 16 min
 **O que você sai sabendo:** os 10 passos para abrir a próxima série de carrosséis em cima da fábrica que você acabou de montar, e o checklist que barra publicação errada.
@@ -23,7 +23,7 @@ Um catálogo com atributos que mudem a copy. Para a série OpenRouter, foi o dum
 - **Ferramentas de um marketplace** com preço, categoria, número de usuários, link da demo.
 - **Funcionalidades de um produto** com módulo, persona-alvo, complexidade de implantação, retorno esperado.
 - **Cases de cliente** com porte, segmento, problema, solução, métrica de resultado.
-- **Cidades, regiões, eventos, livros, perfumes** — qualquer coisa que vire linha de catálogo com atributos comparáveis.
+- **Cidades, regiões, eventos, livros, perfumes**, e qualquer coisa que vire linha de catálogo com atributos comparáveis.
 
 Regra: o catálogo precisa ter pelo menos 30 linhas e pelo menos 4 colunas com valores comparáveis.
 
@@ -93,7 +93,7 @@ Antes de postar cada peça (ou antes de liberar o lote inteiro), passe por este 
 - [ ] O gancho (slide 1) termina no nome do item (`{{NOME}}`)?
 - [ ] O slide 2 abre com "Esse é o `{{NOME}}`"?
 - [ ] Os pools têm 8 a 10 variações por slide, e a variação escolhida para este item é semanticamente diferente das outras?
-- [ ] Nenhuma variação contém travessão (—) ou meia-risca (–)?
+- [ ] Nenhuma variação contém travessão ou meia-risca?
 - [ ] Nenhuma variação promete resultado sem fonte ("você vai vender 10x mais")?
 - [ ] Todos os números citados têm fonte (preço por milhão, contexto, benchmark)?
 
@@ -169,7 +169,8 @@ Aqui está o que já tenho:
   - Renderizador testado em 3 amostras: [SIM/NÃO]
   - Automação de DM configurada: [SIM/NÃO]
 
-Me faça 10 perguntas para eu saber se estou pronto para rodar
+Me faça 10 perguntas para eu saber se estou pronto
+    para rodar
 o playbook. Não responda por mim. Apenas pergunte.
 
 Depois que eu responder, me dê um relatório de prontidão
@@ -195,3 +196,15 @@ O CTA deste livro é duplo:
 - **Rode o checklist.** Antes de postar a próxima peça, passe o checklist. Uma resposta "não" barra. Em uma série bem desenhada, o checklist passa em segundos. Em uma série mal desenhada, ele pega o defeito antes do leitor.
 
 Obrigado por ler até aqui. Agora vá construir.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 04 (1/2) - Teses por combinacao
+
+![QR code do Prompt 04 (1/2) - Teses por combinacao](../figuras/qr_box/cap-04-teses.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-04-teses.md)  
+Arquivo: `prompts/cap-04-teses.md` no repositorio publico.
+

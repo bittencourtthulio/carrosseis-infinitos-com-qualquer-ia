@@ -1,4 +1,4 @@
-# Capítulo 7 — Renderizar sem surpresas: copy vira imagem
+# Capítulo 7: Renderizar sem surpresas: copy vira imagem
 
 **Tempo de leitura:** 17 min
 **O que você sai sabendo:** como pedir para a IA de texto escrever o script Python que gera os 3.344 PNGs (418 itens × 8 slides) a partir da copy e dos assets, como rodar esse script no Google Colab sem instalar nada, e como detectar e corrigir os slides que estouraram.
@@ -6,7 +6,7 @@
 
 ## Conceito
 
-Este é o capítulo que transforma copy em imagem. O trabalho que o Canva faz para uma peça, o Python faz para 418 peças — desde que a IA tenha escrito o script certo.
+Este é o capítulo que transforma copy em imagem. O trabalho que o Canva faz para uma peça, o Python faz para 418 peças, e desde que a IA tenha escrito o script certo.
 
 A geração em lote é onde mora a maior parte da "mágica" do jeito 2. Aqui, todo o trabalho das etapas anteriores (catálogo, copy, teses, pools, anatomia, assets, prints) converge: a IA de texto leu tudo, escreveu um script Python, e o script lê a planilha do capítulo 4 e a pasta de assets do capítulo 5, monta cada um dos 3.344 slides, e salva os PNGs.
 
@@ -139,7 +139,8 @@ Me escreva um script Python que:
 
   1. Lê a planilha de copy via gspread.
   2. Para cada item da série:
-     a. Monta o HTML dos 8 slides, com base na função de cada
+     a. Monta o HTML dos 8 slides, 
+    com base na função de cada
         slide e nos assets da pasta.
      b. Aplica o tema claro ou escuro conforme o campo
         `template` da planilha.
@@ -150,11 +151,13 @@ Me escreva um script Python que:
         headless.
      e. Mede a altura real do slide com JavaScript injetado:
           const bad = [];
-          if (slide.scrollHeight > 1350 + 1) bad.push('estourou');
-          ... (outras checagens que você considerar)
+          if (slide.scrollHeight > 1351)
+              bad.push('estourou');
+          // outras checagens que você considerar
      f. Se estourou, reduz fator k em 4% e remonta (até 14
         vezes).
-     g. Se sobrou espaço (>80px), aumenta k em 4% (até 1.25).
+     g. Se sobrou espaço (>80px), 
+    aumenta k em 4% (até 1.25).
      h. Salva screenshot do slide em PNG, no caminho
         `04-pngs/[ID_DO_ITEM]/slide_[N].png`.
   3. Loga cada slide com: id, função, k final, badges de
@@ -170,7 +173,15 @@ Termine com:
   - Como ler o log e filtrar slides problemáticos.
 ```
 
-(O prompt completo, com script Python funcional para Colab, está em `prompts/cap-07-renderizador.md` no repositório público.)
+
+
+**QR code do prompt:**
+
+![QR code do prompt cap-07-renderizador](../figuras/qr_box/cap-07-renderizador.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-07-renderizador.md)
+
+(O prompt completo, com instruções de uso e variações para Claude e Gemini, está em `prompts/cap-07-renderizador.md` no repositório público.)
 
 ## O que conferir
 
@@ -184,3 +195,15 @@ Termine com:
 ## O que muda amanhã de manhã
 
 Você vai abrir `04-pngs/` e ver os 3.344 PNGs. Em vez de conferir um por um, abra o log do script, filtre por `k < 0.85` ou por aviso, e revise só esses. Em uma série bem desenhada, são menos de 50 slides para revisão humana. Depois, os slides limpos vão para o publicador do capítulo 8.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 07 - Renderizador em lote
+
+![QR code do Prompt 07 - Renderizador em lote](../figuras/qr_box/cap-07-renderizador.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-07-renderizador.md)  
+Arquivo: `prompts/cap-07-renderizador.md` no repositorio publico.
+

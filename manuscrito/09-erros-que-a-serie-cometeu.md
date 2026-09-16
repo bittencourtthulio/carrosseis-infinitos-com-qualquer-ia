@@ -1,4 +1,4 @@
-# Capítulo 9 — Erros que a série cometeu (e que a sua não vai repetir)
+# Capítulo 9: Erros que a série cometeu (e que a sua não vai repetir)
 
 **Tempo de leitura:** 14 min
 **O que você sai sabendo:** os sete defeitos específicos que chegaram ao PNG da série OpenRouter, com a causa raiz, o efeito visível, e a correção no prompt-mestre para a sua série não repetir.
@@ -16,7 +16,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 ## Os sete erros
 
-### Erro 1 — Um exemplo só de cena para modelos de visão
+### Erro 1: Um exemplo só de cena para modelos de visão
 
 **Erro.** O prompt-mestre do slide 3 (prática) tinha uma única cena por modalidade: `foto da nota fiscal` para visão, `trecho de código` para código, `página de chat` para texto.
 
@@ -26,7 +26,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No prompt do capítulo 4 (prompt 2, slide 3), exigir pool mínimo de 8 a 10 variações por combinação de eixos, e validar visualmente que não são paráfrases.
 
-### Erro 2 — Mancha de luz posicionada com `bottom` negativo
+### Erro 2: Mancha de luz posicionada com `bottom` negativo
 
 **Erro.** O asset visual "mancha de luz" do template escuro foi posicionado com `bottom: -50px` (estilosa, "vazando" para fora do slide).
 
@@ -36,7 +36,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No template CSS do prompt do capítulo 7, escrever: "Todos os assets posicionados absolutamente devem usar `top`, nunca `bottom` negativo. Use `overflow: hidden` no container do slide."
 
-### Erro 3 — Página do OpenRouter sem o sufixo `:free`
+### Erro 3: Página do OpenRouter sem o sufixo `:free`
 
 **Erro.** A URL da página de preço do OpenRouter era construída sem o sufixo `:free` quando o tier era `free`. Resultado: a URL caía na página do modelo pago equivalente.
 
@@ -46,7 +46,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No prompt do capítulo 6, escrever a cadeia de URLs por tier, e incluir no script a validação do conteúdo: "Se o tier é free, a página precisa ter a string 'free' no HTML; caso contrário, pula para a próxima URL da cadeia."
 
-### Erro 4 — Card de preço promocional fora de pico
+### Erro 4: Card de preço promocional fora de pico
 
 **Erro.** O print do slide 6 (preço) capturava o card de preço promocional que o OpenRouter mostrava em horário de pico. Fora do horário, o card mostrava o preço cheio.
 
@@ -56,7 +56,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No template do slide 6 (capítulo 5), pedir que o print seja sempre a tabela de preços, não o card individual.
 
-### Erro 5 — Contexto de 1.048.576 dividido por mil
+### Erro 5: Contexto de 1.048.576 dividido por mil
 
 **Erro.** O número de tokens de contexto (1.048.576) era formatado como "1049k tokens" (divisão por 1.000).
 
@@ -66,7 +66,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No prompt do capítulo 4, especificar a regra de formatação de números com unidades binárias. E adicionar no checklist final (capítulo 99) a conferência manual de 3 números por peça.
 
-### Erro 6 — Catálogo de prints não atualizado após a captura em lote
+### Erro 6: Catálogo de prints não atualizado após a captura em lote
 
 **Erro.** O catálogo `prints-catalog.json` dizia que 3 itens estavam com prints completos, mas a pasta `saida/` tinha os 1.672 prints.
 
@@ -76,7 +76,7 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 **Onde mexer.** No prompt do capítulo 6, escrever: "O catálogo de prints é gerado pela própria captura, no fim do script. Não atualize manualmente. O renderizador lê da pasta."
 
-### Erro 7 — Cor de texto escurecida sobre fundo escuro nos pills
+### Erro 7: Cor de texto escurecida sobre fundo escuro nos pills
 
 **Erro.** Os pills (caixas pequenas com palavras-chave, usadas no slide 8 como destaque do CTA) tinham o texto em tom escuro para ter contraste com o fundo claro do pill. No tema escuro, o pill continuava claro, mas o texto também, e o pill ficava ilegível.
 
@@ -88,13 +88,13 @@ Os erros estão em ordem de impacto visual (do mais óbvio ao mais sutil). Para 
 
 ## Como usar esta lista na sua série
 
-Aplique os 7 erros como checklist de validação das suas primeiras 5 peças geradas (não das 418 — só das 5 primeiras). O fluxo é:
+Aplique os 7 erros como checklist de validação das suas primeiras 5 peças geradas (não das 418, e só das 5 primeiras). O fluxo é:
 
 1. Gere os 3 itens-piloto do capítulo 7.
 2. Para cada um dos 24 PNGs (3 itens × 8 slides), passe os olhos pela tabela de erros acima.
 3. Algum dos 7 defeitos aparece na sua peça? Se sim, anote qual e onde.
 4. Cole a lista dos defeitos encontrados no prompt abaixo.
-5. A IA ajusta o prompt-mestre ou o template para eliminar a classe de erro (não o item específico — a classe inteira).
+5. A IA ajusta o prompt-mestre ou o template para eliminar a classe de erro (não o item específico, e a classe inteira).
 6. Regere os 3 itens-piloto. Repita até nenhum dos 7 defeitos aparecer.
 
 ## Material necessário
@@ -150,4 +150,4 @@ específico).
 
 ## O que muda amanhã de manhã
 
-Você vai abrir a pasta `04-pngs/` e ver os 3 itens-piloto regenerados, sem nenhum dos 7 defeitos. Amanhã, quando gerar o lote inteiro, esses 7 defeitos estão eliminados por construção (não por sorte). A próxima série que você abrir não paga por estes defeitos de novo, e cada defeito novo que aparecer vira uma linha nova nesta tabela — a tabela cresce com a sua experiência, não com a série alheia.
+Você vai abrir a pasta `04-pngs/` e ver os 3 itens-piloto regenerados, sem nenhum dos 7 defeitos. Amanhã, quando gerar o lote inteiro, esses 7 defeitos estão eliminados por construção (não por sorte). A próxima série que você abrir não paga por estes defeitos de novo, e cada defeito novo que aparecer vira uma linha nova nesta tabela, e a tabela cresce com a sua experiência, não com a série alheia.

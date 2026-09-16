@@ -1,4 +1,4 @@
-# Capítulo 8 — Publicação e DM na mesma chamada
+# Capítulo 8: Publicação e DM na mesma chamada
 
 **Tempo de leitura:** 13 min
 **O que você sai sabendo:** como montar o bloco de automação que faz a peça de topo do carrossel apontar para o próximo degrau (palavra-chave de comentário + DM com link), e como agendar a série no Instagram sem chamar modelo de IA.
@@ -28,7 +28,8 @@ A escada clássica da série OpenRouter era:
 
 ```
 degrau 0: peça do carrossel (peça de topo, sem custo)
-degrau 1: comentário com palavra-chave → DM com material gratuito
+degrau 1: comentário com palavra-chave → DM com material
+    gratuito
 degrau 2: lead qualificado → convite para aula experimental
 degrau 3: aluno da aula → oferta do produto principal
 ```
@@ -56,7 +57,7 @@ A resposta pública serve para dois propósitos:
 1. **Sinalizar para outros leitores que o comentário foi atendido.** Quem vê o comentário original e a resposta automática entende que "comentar funciona".
 2. **Aumentar a contagem de comentários visível no post.** O Instagram valoriza posts com muitos comentários no alcance.
 
-A frase do public reply é curta e não revela que é automática: `"Te chamei no direct!"`, `"Material na sua DM :)"`, `"Confere o direct"`. Evite "Obrigado por comentar!" — soa robótico.
+A frase do public reply é curta e não revela que é automática: `"Te chamei no direct!"`, `"Material na sua DM :)"`, `"Confere o direct"`. Evite "Obrigado por comentar!", e soa robótico.
 
 A regra da série OpenRouter era manter o public reply habilitado em todos os itens, exceto quando o post pudesse receber comentário ofensivo em volume (assunto polêmico). Para a sua série, comece com habilitado em todos e desligue se o volume de comentários ofensivos aparecer.
 
@@ -93,7 +94,8 @@ slide 8 (CTA) que termina com a frase:
 A escada da minha série é:
   - Degrau 0: peça do carrossel (sem custo)
   - Degrau 1: comentário com palavra-chave
-  - Degrau 2: DM com [MATERIAL GRATUITO, ex: 'PDF comparativo
+  - Degrau 2: DM com [MATERIAL GRATUITO, 
+    ex: 'PDF comparativo
     dos modelos']
   - Degrau 3: convite para [PRÓXIMO PASSO, ex: 'aula
     experimental de 30 minutos']
@@ -121,7 +123,8 @@ pronto, no formato:
 
   item [N]:
     keywords: [LISTA DE 1 A 3 PALAVRAS-CHAVE]
-    mensagem: "[TEXTO DO DM, com {{nome}} onde entra o nome do
+    mensagem: "[TEXTO DO DM, 
+    com {{nome}} onde entra o nome do
       leitor, e com link {{link}} onde entra o link do
       material]"
     link: "[LINK DO MATERIAL GRATUITO]"
@@ -173,3 +176,22 @@ campos acima. Salve em um Google Sheets novo, na aba
 ## O que muda amanhã de manhã
 
 Você vai abrir a planilha `02-copy` e conferir que cada linha tem o bloco `automation` preenchido. Amanhã, quando configurar a ferramenta de automação (ManyChat, ferramenta nativa do Instagram, ou script Python que chama a API), você aponta a ferramenta para a planilha e ela lê o bloco. Cada comentário com a palavra-chave dispara o DM com a mensagem personalizada. Você não precisa revisar item por item: a copy já foi revisada na planilha, e a automação é determinística.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 08 (1/2) - Bloco de automacao (3 itens)
+
+![QR code do Prompt 08 (1/2) - Bloco de automacao (3 itens)](../figuras/qr_box/cap-08-automacao.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-08-automacao.md)  
+Arquivo: `prompts/cap-08-automacao.md` no repositorio publico.
+
+### Prompt 08 (2/2) - Bloco de automacao em massa
+
+![QR code do Prompt 08 (2/2) - Bloco de automacao em massa](../figuras/qr_box/cap-08-automacao-massa.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-08-automacao-massa.md)  
+Arquivo: `prompts/cap-08-automacao-massa.md` no repositorio publico.
+

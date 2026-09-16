@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 02  ·  FIGURA 2</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">A fabrica em 5 estagios</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">Cada estagio le o que o anterior escreveu. Nenhum conhece o interior do outro.</text>
+<line x1="80" y1="500" x2="970" y2="500" stroke="#16A34A" stroke-width="2" opacity="0.4"/>
+<rect x="90" y="380" width="170" height="240" fill="none" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="175" y="430" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">ESTAGIO 1</text>
+<text x="175" y="490" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="700" fill="#1B1714">Fonte</text>
+<text x="175" y="540" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">catalogo bruto</text>
+<line x1="265" y1="500" x2="290" y2="500" stroke="#16A34A" stroke-width="2"/>
+<polyline points="282,495 290,500 282,505" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="280" y="380" width="170" height="240" fill="none" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="365" y="430" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">ESTAGIO 2</text>
+<text x="365" y="490" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="700" fill="#1B1714">Copy</text>
+<text x="365" y="540" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">contrato de copy</text>
+<line x1="455" y1="500" x2="480" y2="500" stroke="#16A34A" stroke-width="2"/>
+<polyline points="472,495 480,500 472,505" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="470" y="380" width="170" height="240" fill="none" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="555" y="430" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">ESTAGIO 3</text>
+<text x="555" y="490" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="700" fill="#1B1714">Prints</text>
+<text x="555" y="540" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">pasta de imagens</text>
+<line x1="645" y1="500" x2="670" y2="500" stroke="#16A34A" stroke-width="2"/>
+<polyline points="662,495 670,500 662,505" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="660" y="380" width="170" height="240" fill="none" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="745" y="430" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">ESTAGIO 4</text>
+<text x="745" y="490" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="700" fill="#1B1714">Render</text>
+<text x="745" y="540" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">3.344 PNGs</text>
+<line x1="835" y1="500" x2="860" y2="500" stroke="#16A34A" stroke-width="2"/>
+<polyline points="852,495 860,500 852,505" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="850" y="380" width="170" height="240" fill="none" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="935" y="430" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">ESTAGIO 5</text>
+<text x="935" y="490" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="700" fill="#1B1714">Publica</text>
+<text x="935" y="540" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">posts agendados</text>
+<text x="175" y="680" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">API publica</text>
+<text x="175" y="702" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">JSON bruto</text>
+<text x="365" y="680" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">prompt-mestre</text>
+<text x="365" y="702" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">8 slides por item</text>
+<text x="555" y="680" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">4 prints por item</text>
+<text x="555" y="702" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">cadeira de URLs</text>
+<text x="745" y="680" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">Python no Colab</text>
+<text x="745" y="702" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">loop k automatico</text>
+<text x="935" y="680" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">Buffer / Later</text>
+<text x="935" y="702" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="13" fill="#6B6358">DM com link</text>
+<path d="M 175 740 Q 175 850 525 850 L 935 850" stroke="#16A34A" stroke-width="2" fill="none" stroke-dasharray="4,4" opacity="0.6"/>
+<text x="525" y="900" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">loop de retorno: correcao no estagio N volta como ajuste no catalogo</text>
+<text x="80" y="1050" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="32" font-weight="700" fill="#1B1714">Numeros da serie OpenRouter</text>
+<rect x="80" y="1100" width="200" height="160" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="180" y="1180" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="800" fill="#16A34A">437</text>
+<text x="180" y="1220" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">modelos na fonte</text>
+<rect x="310" y="1100" width="200" height="160" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="410" y="1180" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="800" fill="#16A34A">418</text>
+<text x="410" y="1220" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">carrosseis gerados</text>
+<rect x="540" y="1100" width="200" height="160" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="640" y="1180" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="800" fill="#16A34A">3.344</text>
+<text x="640" y="1220" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">PNGs (418 x 8)</text>
+<rect x="770" y="1100" width="200" height="160" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="870" y="1180" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="800" fill="#16A34A">0</text>
+<text x="870" y="1220" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">tokens na producao</text>
+</svg>

@@ -1,4 +1,4 @@
-# Capítulo 3 — A fonte de dados: o catálogo é o motor
+# Capítulo 3: A fonte de dados: o catálogo é o motor
 
 **Tempo de leitura:** 14 min
 **O que você sai sabendo:** como decidir quais atributos do seu catálogo viram eixos de classificação da copy, e como transformar uma lista de itens em uma planilha estruturada que alimenta a fábrica inteira.
@@ -81,9 +81,11 @@ As colunas `categoria_1` e `categoria_2` são os eixos. As outras colunas são a
 ## Prompt para colar na IA
 
 ```
-Você é meu arquiteto de catálogo para uma série de carrosséis.
+Você é meu arquiteto de catálogo para uma série de
+    carrosséis.
 
-Minha série é sobre [TEMA]. O catálogo que estou montando tem
+Minha série é sobre [TEMA]. O catálogo que estou montando
+    tem
 [N, ex: 200] itens. Abaixo segue uma amostra de 10 linhas
 reais do catálogo, no formato de tabela:
 
@@ -99,11 +101,13 @@ classificação).
 
 Para esse catálogo:
 
-1. Quais colunas são ÚTEIS para gerar copy diferente para cada
+1. Quais colunas são ÚTEIS para gerar copy diferente
+    para cada
    item (atributos que mudam a copy)? Liste e explique em 1
    frase cada.
 
-2. Quais colunas são apenas metadados para o renderizador (cor
+2. Quais colunas são apenas metadados para o renderizador
+    (cor
    de destaque, URL de logo) e não afetam a copy? Liste e
    explique.
 
@@ -112,20 +116,31 @@ Para esse catálogo:
        colunas do meu catálogo.
      - Eixo 2: nome, valores possíveis (3 a 6), com base nas
        colunas do meu catálogo.
-   Para cada eixo, justifique em 1 frase por que esses valores
+   Para cada eixo, 
+    justifique em 1 frase por que esses valores
    geram copy diferente.
 
-4. Alguma coluna importante está faltando no meu catálogo para
+4. Alguma coluna importante está faltando no meu catálogo
+    para
    sustentar esses eixos? Sugira até 3 colunas novas.
 
 5. Alguma coluna existe mas não serve para nada? Sugira
    remover.
 
-Termine com a estrutura final da planilha (nome e tipo de cada
+Termine com a estrutura final da planilha (nome e 
+    tipo de cada
 coluna), pronta para eu aplicar.
 ```
 
-(O prompt completo, com exemplos preenchidos para catálogo de SaaS, modelos de IA, restaurantes e livros, está em `prompts/cap-03-catalogo.md` no repositório público.)
+
+
+**QR code do prompt:**
+
+![QR code do prompt cap-03-catalogo](../figuras/qr_box/cap-03-catalogo.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-03-catalogo.md)
+
+(O prompt completo, com instruções de uso e variações para Claude e Gemini, está em `prompts/cap-03-catalogo.md` no repositório público.)
 
 ## O que conferir
 
@@ -136,3 +151,15 @@ coluna), pronta para eu aplicar.
 ## O que muda amanhã de manhã
 
 Você vai abrir a planilha `catalogo-[sua-serie]` e preencher todas as linhas, não só as 10. Se o catálogo é grande (mais de 50 itens), divida em dois dias: hoje os primeiros 25, amanhã os outros 25. Não peça para a IA gerar os dados do catálogo: a IA não conhece seu domínio, e os dados inventados vão para a copy, e a copy inventada vai para o post, e o leitor percebe. Catálogo é trabalho humano, copy é trabalho do sistema.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 03 - A fonte de dados
+
+![QR code do Prompt 03 - A fonte de dados](../figuras/qr_box/cap-03-catalogo.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-03-catalogo.md)  
+Arquivo: `prompts/cap-03-catalogo.md` no repositorio publico.
+

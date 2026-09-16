@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 06  ·  FIGURA 6</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">Cadeia de URLs para captura</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">Cada print tenta 3 URLs antes de desistir. HEAD antes de abrir a pagina.</text>
+<rect x="80" y="290" width="290" height="60" fill="#16A34A" rx="14"/>
+<text x="225.0" y="330" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Tela principal</text>
+<rect x="80" y="380" width="290" height="80" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="100" y="410" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 1</text>
+<text x="100" y="440" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">site oficial</text>
+<line x1="225.0" y1="468" x2="225.0" y2="480" stroke="#16A34A" stroke-width="2"/>
+<polyline points="220.0,475 225.0,480 230.0,475" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="80" y="480" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="100" y="510" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 2</text>
+<text x="100" y="540" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">model card HF</text>
+<line x1="225.0" y1="568" x2="225.0" y2="580" stroke="#16A34A" stroke-width="2"/>
+<polyline points="220.0,575 225.0,580 230.0,575" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="80" y="580" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="100" y="610" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 3</text>
+<text x="100" y="640" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">pagina OR</text>
+<rect x="390" y="290" width="290" height="60" fill="#16A34A" rx="14"/>
+<text x="535.0" y="330" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Funcionalidade</text>
+<rect x="390" y="380" width="290" height="80" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="410" y="410" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 1</text>
+<text x="410" y="440" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">site oficial</text>
+<line x1="535.0" y1="468" x2="535.0" y2="480" stroke="#16A34A" stroke-width="2"/>
+<polyline points="530.0,475 535.0,480 540.0,475" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="390" y="480" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="410" y="510" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 2</text>
+<text x="410" y="540" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">docs</text>
+<line x1="535.0" y1="568" x2="535.0" y2="580" stroke="#16A34A" stroke-width="2"/>
+<polyline points="530.0,575 535.0,580 540.0,575" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="390" y="580" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="410" y="610" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 3</text>
+<text x="410" y="640" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">demo gravada</text>
+<rect x="700" y="290" width="290" height="60" fill="#16A34A" rx="14"/>
+<text x="845.0" y="330" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Preco</text>
+<rect x="700" y="380" width="290" height="80" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="720" y="410" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 1</text>
+<text x="720" y="440" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">site oficial</text>
+<line x1="845.0" y1="468" x2="845.0" y2="480" stroke="#16A34A" stroke-width="2"/>
+<polyline points="840.0,475 845.0,480 850.0,475" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="700" y="480" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="720" y="510" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 2</text>
+<text x="720" y="540" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">pagina de preco</text>
+<line x1="845.0" y1="568" x2="845.0" y2="580" stroke="#16A34A" stroke-width="2"/>
+<polyline points="840.0,575 845.0,580 850.0,575" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="700" y="580" width="290" height="80" fill="#F5F1E9" stroke="#16A34A" stroke-width="2" rx="10"/>
+<text x="720" y="610" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">URL 3</text>
+<text x="720" y="640" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">tabela</text>
+<rect x="80" y="720" width="890" height="120" fill="#E5F4E8" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="765" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#15803D">HEAD antes de abrir</text>
+<text x="110" y="800" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">200 OK = abre a pagina.  404 / 403 / timeout = pula para a proxima URL da cadeia.</text>
+<text x="110" y="825" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">Se todas as URLs falharem = status "faltando" no catalogo, sem print quebrado no disco.</text>
+<rect x="80" y="880" width="890" height="280" fill="none" stroke="#E85D00" stroke-width="2" rx="14"/>
+<text x="110" y="925" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#C64A00">Padrao de arquivo</text>
+<text x="110" y="970" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#1B1714">[id-do-item]/[funcao-do-print].png</text>
+<text x="110" y="1015" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#6B6358">Exemplo:</text>
+<text x="110" y="1045" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#6B6358">001-alpha-3-5/tela.png</text>
+<text x="110" y="1070" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#6B6358">001-alpha-3-5/funcionalidade.png</text>
+<text x="110" y="1095" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#6B6358">001-alpha-3-5/preco.png</text>
+<text x="110" y="1120" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#6B6358">001-alpha-3-5/benchmark.png</text>
+<text x="80" y="1200" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#C64A00" letter-spacing="2">MODO RECHECK (semanal)</text>
+<text x="80" y="1230" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">Para cada print ja capturado: HEAD na URL. Se morreu, apaga o arquivo.</text>
+</svg>

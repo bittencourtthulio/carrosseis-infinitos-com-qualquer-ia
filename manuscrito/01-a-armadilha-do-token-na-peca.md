@@ -1,4 +1,4 @@
-# Capítulo 1 — A armadilha do token na peça
+# Capítulo 1: A armadilha do token na peça
 
 **Tempo de leitura:** 12 min
 **O que você sai sabendo:** por que pedir IA para escrever cada carrossel é mais caro (em token, em consistência e em revisão) do que gastar tokens uma vez para escrever o sistema que escreve os carrosséis.
@@ -8,9 +8,9 @@
 
 Existem dois jeitos de usar IA para produzir uma série de carrosséis.
 
-**Jeito 1 — o modelo escreve cada peça.** Para cada item da série, você abre o ChatGPT, cola um prompt, recebe a copy, revisa, ajusta o prompt, gera de novo, copia para o Canva, ajusta o template, exporta o PNG, posta. Funciona bem para dez peças. Para quatrocentas, o custo em token cresce em linha reta, a consistência cai (o slide 1 fica num tom, o slide 80 fica em outro), e cada correção de copy obriga regerar tudo.
+**Jeito 1, e o modelo escreve cada peça.** Para cada item da série, você abre o ChatGPT, cola um prompt, recebe a copy, revisa, ajusta o prompt, gera de novo, copia para o Canva, ajusta o template, exporta o PNG, posta. Funciona bem para dez peças. Para quatrocentas, o custo em token cresce em linha reta, a consistência cai (o slide 1 fica num tom, o slide 80 fica em outro), e cada correção de copy obriga regerar tudo.
 
-**Jeito 2 — o modelo escreve o sistema que escreve as peças.** Você gasta tokens uma vez, numa sessão longa de design com a IA, para construir o catálogo classificado, os prompts mestres por slide, o template visual e o script de geração em lote. Depois disso, gerar 418 carrosséis ou 4.180 custa o mesmo: zero em token de modelo, alguns minutos de CPU rodando o script que a IA escreveu.
+**Jeito 2, e o modelo escreve o sistema que escreve as peças.** Você gasta tokens uma vez, numa sessão longa de design com a IA, para construir o catálogo classificado, os prompts mestres por slide, o template visual e o script de geração em lote. Depois disso, gerar 418 carrosséis ou 4.180 custa o mesmo: zero em token de modelo, alguns minutos de CPU rodando o script que a IA escreveu.
 
 Este livro é sobre o jeito 2. A diferença não é técnica, é econômica: no jeito 1 você paga por peça, no jeito 2 você paga pela fábrica uma vez e usa a fábrica de graça para sempre.
 
@@ -25,7 +25,7 @@ O que acontece quando você chega em vinte peças:
 - O token consumido não para de subir. Em ChatGPT Plus você tem um teto mensal; em API, a fatura cresce mês a mês.
 - A revisão final vira um inferno. Antes de postar cada peça, você revê se a copy bate com o template, se a fonte carregou, se a cor de destaque está certa, se o CTA é o mesmo.
 
-Quando você chega em cem peças, o jeito 1 já quebrou. Quando chega em quatrocentas, o jeito 1 não é uma decisão — é um pedido de desculpas para si mesmo.
+Quando você chega em cem peças, o jeito 1 já quebrou. Quando chega em quatrocentas, o jeito 1 não é uma decisão, e é um pedido de desculpas para si mesmo.
 
 ## Por que o jeito 2 também parece caro (até você fazer a conta)
 
@@ -71,26 +71,41 @@ Três coisas concretas, em ordem de impacto.
 
 ```
 Você é meu consultor de IA aplicada a marketing de conteúdo.
-Eu uso (ou estou prestes a usar) IA para escrever cada carrossel
+Eu uso (ou estou prestes a usar) IA para escrever cada
+    carrossel
 individualmente, peça por peça.
 
-Me explique, com UMA analogia de leigo, por que pedir para a IA
-escrever cada carrossel individualmente é mais caro em token,
-mais lento em revisão e menos consistente em marca do que gastar
-uma sessão maior de tokens para construir o sistema que escreve
+Me explique, 
+    com UMA analogia de leigo, por que pedir para a IA
+escrever cada carrossel individualmente é mais caro
+    em token,
+mais lento em revisão e 
+    menos consistente em marca do que gastar
+uma sessão maior de tokens para construir o sistema
+    que escreve
 os carrosséis.
 
 Use linguagem de quem nunca programou. Máximo de 1 página.
-Termine com 3 perguntas para eu identificar se estou cometendo
+Termine com 3 perguntas para eu identificar se estou
+    cometendo
 esse erro na minha série atual:
 
   1. Estou reescrevendo o prompt a cada peça, ou tenho um
      prompt-mestre?
-  2. Quando preciso corrigir uma regra de copy, eu regenero a
+  2. Quando preciso corrigir uma regra de copy, 
+    eu regenero a
      peça errada ou corrijo o prompt e regenero o lote?
   3. O token que eu já gastei até hoje seria suficiente para
      ter construído o sistema completo?
 ```
+
+
+
+**QR code do prompt:**
+
+![QR code do prompt cap-01-armadilha](../figuras/qr_box/cap-01-armadilha.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-01-armadilha.md)
 
 (O prompt completo, com instruções de uso e variações para Claude e Gemini, está em `prompts/cap-01-armadilha.md` no repositório público.)
 
@@ -103,3 +118,15 @@ esse erro na minha série atual:
 ## O que muda amanhã de manhã
 
 Antes de dormir hoje, você vai decidir uma coisa: a sua série atual (a que você já começou ou está prestes a começar) vai pelo jeito 1 ou vai pelo jeito 2. A decisão cabe em uma frase e cabe em um papel colado no monitor. Se for jeito 2, você segue para o capítulo 2 amanhã. Se for jeito 1, você segue do mesmo jeito, mas agora sabe o preço que vai pagar.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 01 - A armadilha do token na peca
+
+![QR code do Prompt 01 - A armadilha do token na peca](../figuras/qr_box/cap-01-armadilha.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-01-armadilha.md)  
+Arquivo: `prompts/cap-01-armadilha.md` no repositorio publico.
+

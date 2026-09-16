@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+  <defs>
+    <linearGradient id="capabg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141210"/>
+      <stop offset="1" stop-color="#0a0908"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="40" height="40" fill="none"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#16A34A" stroke-width="0.4" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1050" height="1485" fill="url(#capabg)"/>
+  <rect width="1050" height="1485" fill="url(#grid)"/>
+
+  <!-- kicker superior -->
+  <text x="80" y="120" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#16A34A" letter-spacing="3">ACADEMIA DO CODIGO  ·  METODOLOGIAS  ·  2026</text>
+
+  <!-- traco verde decorativo -->
+  <line x1="80" y1="155" x2="200" y2="155" stroke="#16A34A" stroke-width="3"/>
+
+  <!-- titulo principal empilhado -->
+  <text x="80" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="98" font-weight="700" fill="#F1EBE1" letter-spacing="-2">Carrosseis</text>
+  <text x="80" y="490" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="98" font-weight="700" fill="#F1EBE1" letter-spacing="-2">Infinitos</text>
+  <text x="80" y="600" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="98" font-weight="700" fill="#F1EBE1" letter-spacing="-2">com Qualquer IA</text>
+
+  <!-- faixa laranja de destaque -->
+  <rect x="80" y="660" width="880" height="78" fill="#E85D00"/>
+  <text x="110" y="717" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="-1">PRATICAMENTE SEM GASTAR TOKENS</text>
+
+  <!-- subtitulo -->
+  <text x="80" y="820" font-family="'Inter', 'Helvetica', sans-serif" font-size="24" fill="#A69D8F">Passo a passo para leigo montar uma fabrica de 100, 200, 500 carrosseis</text>
+  <text x="80" y="852" font-family="'Inter', 'Helvetica', sans-serif" font-size="24" fill="#A69D8F">sem instalar programa e sem chamar modelo de linguagem na producao.</text>
+
+  <!-- icones de tier (mini) -->
+  <g transform="translate(80, 1020)">
+    <circle cx="40" cy="40" r="40" fill="none" stroke="#16A34A" stroke-width="3"/>
+    <text x="40" y="50" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#16A34A">F</text>
+
+    <circle cx="180" cy="40" r="40" fill="none" stroke="#16A34A" stroke-width="3"/>
+    <text x="180" y="50" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#16A34A">B</text>
+
+    <circle cx="320" cy="40" r="40" fill="none" stroke="#16A34A" stroke-width="3"/>
+    <text x="320" y="50" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#16A34A">M</text>
+
+    <circle cx="460" cy="40" r="40" fill="none" stroke="#16A34A" stroke-width="3"/>
+    <text x="460" y="50" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#16A34A">C</text>
+
+    <text x="540" y="35" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#A69D8F">FREE</text>
+    <text x="540" y="55" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#A69D8F">BARATO</text>
+    <text x="620" y="35" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#A69D8F">MEDIO</text>
+    <text x="620" y="55" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#A69D8F">CARO</text>
+  </g>
+
+  <!-- numero 418 destacado -->
+  <text x="80" y="1230" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="180" font-weight="800" fill="#16A34A" letter-spacing="-4">418</text>
+  <text x="370" y="1180" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#F1EBE1">carrosseis</text>
+  <text x="370" y="1210" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#F1EBE1">produzidos</text>
+  <text x="370" y="1240" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#F1EBE1">em uma sessao</text>
+  <text x="370" y="1270" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#E85D00">0 tokens na producao</text>
+
+  <!-- rodape -->
+  <line x1="80" y1="1390" x2="970" y2="1390" stroke="#16A34A" stroke-width="1" opacity="0.4"/>
+  <text x="80" y="1430" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#A69D8F" letter-spacing="2">THULIO BITTENCOURT</text>
+  <text x="970" y="1430" text-anchor="end" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="16" fill="#A69D8F" letter-spacing="2">EXPX / ACADEMIA DO CODIGO</text>
+</svg>

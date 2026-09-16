@@ -1,4 +1,4 @@
-# Capítulo 4 — Eixos, teses e pools de frases
+# Capítulo 4: Eixos, teses e pools de frases
 
 **Tempo de leitura:** 16 min
 **O que você sai sabendo:** como pedir para a IA escrever uma tese em uma frase para cada combinação de eixos, e um pool de 8 a 10 variações por slide em cada combinação, sem repetir frase.
@@ -52,7 +52,7 @@ O mecanismo, traduzido em linguagem de leigo:
 3. Divide o número pelo tamanho do pool (ex.: 10 variações → divide por 10).
 4. O resto da divisão é o índice da variação que esse item recebe.
 
-O efeito prático: o item 001 sempre recebe a variação 3, em qualquer execução, hoje ou daqui a dois anos. Quando você corrigir uma frase errada no pool, o item 001 continua recebendo a variação 3 (a frase corrigida), e os outros 417 itens continuam recebendo as suas variações originais. Você não precisa revisar 418 itens — só o que estava errado.
+O efeito prático: o item 001 sempre recebe a variação 3, em qualquer execução, hoje ou daqui a dois anos. Quando você corrigir uma frase errada no pool, o item 001 continua recebendo a variação 3 (a frase corrigida), e os outros 417 itens continuam recebendo as suas variações originais. Você não precisa revisar 418 itens, e só o que estava errado.
 
 No prompt-mestre do capítulo 7, a IA escreve o script Python (ou a fórmula do Sheets) que aplica o hash. Você não precisa entender a matemática, só pedir para a IA implementar e te entregar o resultado.
 
@@ -78,7 +78,8 @@ Você é meu redator-chefe de uma série de carrosséis.
 
 Minha série tem estes dois eixos de classificação:
 
-  Eixo 1 (nome: [NOME, ex: TIER_DE_PRECO]): valores possíveis
+  Eixo 1 (nome: [NOME, 
+    ex: TIER_DE_PRECO]): valores possíveis
   [VALOR_1, VALOR_2, VALOR_3, VALOR_4].
   Eixo 2 (nome: [NOME, ex: MODALIDADE]): valores possíveis
   [VALOR_A, VALOR_B, VALOR_C, VALOR_D, VALOR_E, VALOR_F].
@@ -92,7 +93,8 @@ O produto/serviço que estou vendendo com a série é
 
 Para CADA combinação dos dois eixos, me dê UMA tese em UMA
 frase. Cada tese deve:
-  - prometer uma coisa concreta para o leitor (não ser genérica);
+  - prometer uma coisa concreta para o leitor (não
+    ser genérica);
   - caber em no máximo 200 caracteres;
   - usar vocabulário alinhado ao público e ao tom;
   - ser diferente das teses das combinações vizinhas (não
@@ -131,11 +133,14 @@ variações.
 
 Cada variação deve:
   - Caber em até [N, ex: 100] caracteres.
-  - Conter 1 a 3 "trechos de destaque" (palavras ou expressões
+  - Conter 1 a 3 "trechos de destaque" (palavras ou 
+    expressões
     curtas que viram negrito no post).
-  - Ser semanticamente diferente das outras variações do pool
+  - Ser semanticamente diferente das outras variações
+    do pool
     (não ser paráfrase).
-  - No slide 1 (gancho), terminar no NOME do item (placeholder
+  - No slide 1 (gancho), 
+    terminar no NOME do item (placeholder
     {{NOME}}). No slide 2 (o_que_e), abrir com "Esse é o
     {{NOME}}".
   - Usar vocabulário alinhado ao público e ao tom.
@@ -167,3 +172,22 @@ Formato de saída:
 ## O que muda amanhã de manhã
 
 Você vai abrir a planilha `02-copy` que está vazia e criar uma aba para cada combinação de eixos. Dentro de cada aba, criar oito colunas (uma por slide) e colar os pools de variações. O cabeçalho da aba é o nome da combinação (ex.: `(barato, visão)`). Quando a IA de código (capítulo 7) rodar sobre essa planilha, ela vai ler cada aba e gerar a copy de cada item cruzando o catálogo com os pools. Amanhã, a planilha tem o esqueleto das 24 combinações; depois da sua aprovação dos pools, ela passa a ser o contrato da série.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 04 (2/2) - Pools de variacoes
+
+![QR code do Prompt 04 (2/2) - Pools de variacoes](../figuras/qr_box/cap-04-pools.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-04-pools.md)  
+Arquivo: `prompts/cap-04-pools.md` no repositorio publico.
+
+### Prompt 04 (1/2) - Teses por combinacao
+
+![QR code do Prompt 04 (1/2) - Teses por combinacao](../figuras/qr_box/cap-04-teses.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-04-teses.md)  
+Arquivo: `prompts/cap-04-teses.md` no repositorio publico.
+

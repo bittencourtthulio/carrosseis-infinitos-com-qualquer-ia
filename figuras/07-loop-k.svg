@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 07  ·  FIGURA 7</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">O loop k do renderizador</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">O browser mede o que o codigo nao adivinha. Python ajusta em 4% por rodada.</text>
+<rect x="325.0" y="290" width="400" height="110" fill="#FFFFFF" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="525" y="335" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#16A34A">k = 1.00</text>
+<text x="525" y="370" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">monta slide</text>
+<line x1="525" y1="400" x2="525" y2="430" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,425 525,430 530,425" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="440" width="400" height="110" fill="#FFFFFF" stroke="#1B1714" stroke-width="3" rx="14"/>
+<text x="525" y="485" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">mede altura</text>
+<text x="525" y="520" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">Chromium / JS</text>
+<line x1="525" y1="550" x2="525" y2="580" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,575 525,580 530,575" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="590" width="400" height="110" fill="#FFFFFF" stroke="#1B1714" stroke-width="3" rx="14"/>
+<text x="525" y="635" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">estourou?</text>
+<text x="525" y="670" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">scrollHeight > 1350?</text>
+<line x1="525" y1="700" x2="525" y2="730" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,725 525,730 530,725" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="740" width="400" height="110" fill="#FFFFFF" stroke="#E85D00" stroke-width="3" rx="14"/>
+<text x="525" y="785" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#E85D00">sim: k = k * 0.96</text>
+<text x="525" y="820" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">encolhe texto</text>
+<line x1="525" y1="850" x2="525" y2="880" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,875 525,880 530,875" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="890" width="400" height="110" fill="#FFFFFF" stroke="#1B1714" stroke-width="3" rx="14"/>
+<text x="525" y="935" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">nao e sobra?</text>
+<text x="525" y="970" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">espaco > 80px?</text>
+<line x1="525" y1="1000" x2="525" y2="1030" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,1025 525,1030 530,1025" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="1040" width="400" height="110" fill="#FFFFFF" stroke="#E85D00" stroke-width="3" rx="14"/>
+<text x="525" y="1085" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#E85D00">sim: k = k * 1.04</text>
+<text x="525" y="1120" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">cresce texto</text>
+<line x1="525" y1="1150" x2="525" y2="1180" stroke="#16A34A" stroke-width="2"/>
+<polyline points="520,1175 525,1180 530,1175" stroke="#16A34A" stroke-width="2" fill="none"/>
+<rect x="325.0" y="1190" width="400" height="110" fill="#FFFFFF" stroke="#16A34A" stroke-width="3" rx="14"/>
+<text x="525" y="1235" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#16A34A">salva PNG</text>
+<text x="525" y="1270" text-anchor="middle" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#6B6358">ate 14 rodadas</text>
+<rect x="80" y="290" width="280" height="600" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="100" y="325" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#15803D">Leitura do k</text>
+<text x="100" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="20" font-weight="700" fill="#16A34A">1.00</text>
+<text x="100" y="402" font-family="'Inter', 'Helvetica', sans-serif" font-size="14" fill="#6B6358">coube</text>
+<text x="100" y="450" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="20" font-weight="700" fill="#16A34A">acima</text>
+<text x="100" y="472" font-family="'Inter', 'Helvetica', sans-serif" font-size="14" fill="#6B6358">sobrava</text>
+<text x="100" y="520" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="20" font-weight="700" fill="#1B1714">0.85 a 0.96</text>
+<text x="100" y="542" font-family="'Inter', 'Helvetica', sans-serif" font-size="14" fill="#6B6358">encolheu sozinho</text>
+<text x="100" y="590" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="20" font-weight="700" fill="#E85D00">abaixo de 0.85</text>
+<text x="100" y="612" font-family="'Inter', 'Helvetica', sans-serif" font-size="14" fill="#6B6358">copy comprida</text>
+<text x="100" y="660" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="20" font-weight="700" fill="#C64A00">14 rodadas</text>
+<text x="100" y="682" font-family="'Inter', 'Helvetica', sans-serif" font-size="14" fill="#6B6358">nao coube</text>
+<rect x="700" y="290" width="280" height="600" fill="#E5F4E8" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="720" y="325" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#15803D">Protecoes</text>
+<text x="720" y="380" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Fonte nao carregou = aborta</text>
+<text x="720" y="440" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Travessao na copy = aviso no log</text>
+<text x="720" y="500" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Browser reutilizado no lote</text>
+<text x="720" y="560" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Log com k por slide</text>
+<text x="720" y="620" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Filtro: k abaixo de 0.85 ou aviso</text>
+<text x="720" y="680" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#1B1714">- Sem filtro = revisa 50 slides</text>
+</svg>

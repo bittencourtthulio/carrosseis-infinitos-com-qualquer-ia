@@ -1,4 +1,4 @@
-# Capítulo 5 — Anatomia dos 8 slides como contrato (e os assets visuais)
+# Capítulo 5: Anatomia dos 8 slides como contrato (e os assets visuais)
 
 **Tempo de leitura:** 16 min
 **O que você sai sabendo:** por que fixar a anatomia dos 8 slides antes de gerar copy evita ter que regerar tudo; e como usar uma IA de imagem de ponta, uma única vez, para gerar os assets visuais do template que a fábrica inteira vai reutilizar.
@@ -51,7 +51,7 @@ A lista mínima de assets, em ordem de impacto:
 
 1. **Capa da série** (1 imagem, 1080×1350 ou 1:1, depende do seu formato). É a primeira coisa que o leitor vê no feed.
 2. **Ícone do tier** (4 ícones, um por valor do eixo preço). Pequenos, alto contraste, fundo transparente. Saem em PNG com canal alfa.
-3. **Moldura do print** (1 imagem). Vai em volta dos slides 2, 3, 6 e 7 (os slides com print). Pode ser um traço, um canto dobrado, uma sombra — algo que diferencia "isto é uma captura de tela" de "isto é copy".
+3. **Moldura do print** (1 imagem). Vai em volta dos slides 2, 3, 6 e 7 (os slides com print). Pode ser um traço, um canto dobrado, uma sombra, e algo que diferencia "isto é uma captura de tela" de "isto é copy".
 4. **Detalhe de marca** (1 imagem, opcional). Logo ou símbolo no rodapé dos slides, menor que o ícone do tier.
 
 Quatro a sete imagens no total. A sessão com a IA de imagem leva algumas horas (você vai gerar várias versões de cada, escolher a melhor, regenerar as que não ficaram boas). Quando você terminar, esses arquivos viram o "rosto" da série inteira.
@@ -154,3 +154,22 @@ Acrescente no final do meu prompt:
 ## O que muda amanhã de manhã
 
 Você vai abrir a pasta `04-pngs/assets/` e confirmar que os sete arquivos estão lá (capa, 4 ícones, moldura, detalhe de marca). Cada arquivo com nome claro e fundo transparente onde precisa. Amanhã, quando a IA de código (capítulo 7) for escrever o script de geração, o primeiro passo do script vai ser "carregar os assets desta pasta". A fábrica já tem o rosto.
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 05 (1/2) - Anatomia dos 8 slides
+
+![QR code do Prompt 05 (1/2) - Anatomia dos 8 slides](../figuras/qr_box/cap-05-anatomia.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-05-anatomia.md)  
+Arquivo: `prompts/cap-05-anatomia.md` no repositorio publico.
+
+### Prompt 05 (2/2) - Briefing para IA de imagem
+
+![QR code do Prompt 05 (2/2) - Briefing para IA de imagem](../figuras/qr_box/cap-05-assets.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-05-assets.md)  
+Arquivo: `prompts/cap-05-assets.md` no repositorio publico.
+

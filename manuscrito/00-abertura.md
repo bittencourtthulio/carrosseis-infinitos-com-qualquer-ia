@@ -14,7 +14,7 @@ Este livro é para você que:
 
 - posta (ou quer postar) carrosséis no Instagram, LinkedIn ou TikTok para vender produto, serviço ou ideia;
 - já tentou usar IA para escrever a copy de cada peça e descobriu que o custo sobe em linha reta, a consistência cai, e cada correção obriga regerar tudo;
-- não é programador, não quer instalar Python, não vai rodar terminal — mas sabe copiar e colar texto no ChatGPT, Claude ou Gemini;
+- não é programador, não quer instalar Python, não vai rodar terminal, e mas sabe copiar e colar texto no ChatGPT, Claude ou Gemini;
 - quer entender a conta por trás do "praticamente sem gastar tokens" antes de prometer isso para si mesmo.
 
 Se você já é dev e prefere ler código, o material original da série (técnico, em Python) está citado no capítulo 10 como referência opcional. Este livro é a tradução para leigo, e a tradução é honesta sobre o que mudou.
@@ -65,7 +65,7 @@ A palavra "praticamente" do título reconhece dois investimentos: a sessão de d
 - Uma conta Canva gratuita, se você for pelo caminho alternativo de renderização sem código (capítulo 7 explica os três caminhos).
 - Uma pasta no Google Drive ou no seu computador para guardar os prompts mestres que a IA vai escrever para você. Cada capítulo deste livro aponta para o prompt principal em uma caixa destacada. Copie e cole no Drive no final de cada capítulo.
 
-Você não precisa instalar programa. Você não precisa comprar ferramenta. Você não precisa saber programar — o Python que roda a fábrica em lote é escrito pela IA e executado no Google Colab, que funciona dentro do navegador.
+Você não precisa instalar programa. Você não precisa comprar ferramenta. Você não precisa saber programar, e o Python que roda a fábrica em lote é escrito pela IA e executado no Google Colab, que funciona dentro do navegador.
 
 ## O que muda amanhã de manhã
 

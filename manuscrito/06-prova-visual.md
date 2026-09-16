@@ -1,4 +1,4 @@
-# Capítulo 6 — Prova visual em escala: 4 prints por carrossel
+# Capítulo 6: Prova visual em escala: 4 prints por carrossel
 
 **Tempo de leitura:** 13 min
 **O que você sai sabendo:** como capturar os 1.672 prints (4 por item) que sustentam a copy da série, sem confiar em prompt, e como conferir que cada print bate com o slide em que vai aparecer.
@@ -103,11 +103,13 @@ A cadeia de URLs alternativas para cada print é:
 
 Me escreva um script Python que:
 
-  1. Lê a planilha do Google Sheets (use a biblioteca gspread
+  1. Lê a planilha do Google Sheets (use a biblioteca
+    gspread
      ou similar).
   2. Para cada item, tenta cada URL da cadeia, na ordem, com
      uma chamada HEAD antes de abrir a página.
-  3. Se a URL responde 200, abre a página em browser headless
+  3. Se a URL responde 200, 
+    abre a página em browser headless
      (use Playwright).
   4. Captura o conteúdo central, com margem de [N, ex: 100]
      pixels em cada lado.
@@ -124,7 +126,15 @@ Termine com:
     cuja URL morreu).
 ```
 
-(O prompt completo, com script pronto para Google Colab, está em `prompts/cap-06-prints.md` no repositório público.)
+
+
+**QR code do prompt:**
+
+![QR code do prompt cap-06-prints](../figuras/qr_box/cap-06-prints.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-06-prints.md)
+
+(O prompt completo, com instruções de uso e variações para Claude e Gemini, está em `prompts/cap-06-prints.md` no repositório público.)
 
 ## O que conferir
 
@@ -137,3 +147,15 @@ Termine com:
 ## O que muda amanhã de manhã
 
 Você vai abrir a pasta `03-prints/` e confirmar que tem subpastas para os primeiros 10 itens, com 4 prints em cada. Amanhã, quando rodar o script no Colab, ele vai gerar as outras 408 subpastas em alguns minutos de CPU, e a pasta `03-prints/` passa a ter 418 subpastas com 1.672 arquivos. O inventário na planilha catálogo vai mostrar `capturado` em quase todas as linhas, com `faltando` apenas onde a cadeia inteira de URLs morreu (esses itens precisam de captura manual ou de exclusão da série).
+
+## QR codes dos prompts deste capitulo
+
+Aponte a camera do celular para cada QR code ou clique no link para abrir o arquivo `.md` completo no GitHub. O arquivo contem o prompt destacado, variacoes para Claude e Gemini, exemplos preenchidos e o checklist de validacao.
+
+### Prompt 06 - Captura de prints em escala
+
+![QR code do Prompt 06 - Captura de prints em escala](../figuras/qr_box/cap-06-prints.svg)
+
+[Abrir no GitHub](https://github.com/bittencourtthulio/carrosseis-infinitos-com-qualquer-ia/blob/main/prompts/cap-06-prints.md)  
+Arquivo: `prompts/cap-06-prints.md` no repositorio publico.
+

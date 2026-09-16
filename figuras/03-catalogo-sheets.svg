@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 03  ·  FIGURA 3</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">O catalogo e o motor</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">Google Sheets com 1 linha por item. As colunas certas decidem a copy.</text>
+<rect x="80" y="320" width="910" height="50" fill="#16A34A"/>
+<text x="95" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">id</text>
+<text x="225" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">nome</text>
+<text x="355" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">tier</text>
+<text x="485" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">modalidade</text>
+<text x="615" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">preco_M</text>
+<text x="745" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">url</text>
+<text x="875" y="352" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="700" fill="#FFFFFF">descricao</text>
+<line x1="80" y1="370" x2="990" y2="370" stroke="#15803D" stroke-width="2"/>
+<rect x="80" y="370" width="910" height="50" fill="#F5F1E9"/>
+<text x="95" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">1</text>
+<text x="225" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Alpha Vision</text>
+<text x="355" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">free</text>
+<text x="485" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">visao</text>
+<text x="615" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">0</text>
+<text x="745" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">alpha.com</text>
+<text x="875" y="402" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Modelo de visao gratuito</text>
+<rect x="80" y="420" width="910" height="50" fill="#EEE9DD"/>
+<text x="95" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">2</text>
+<text x="225" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Beta Code</text>
+<text x="355" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">barato</text>
+<text x="485" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">codigo</text>
+<text x="615" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">0.3</text>
+<text x="745" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">beta.dev</text>
+<text x="875" y="452" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Codigo com baixo custo</text>
+<rect x="80" y="470" width="910" height="50" fill="#F5F1E9"/>
+<text x="95" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">3</text>
+<text x="225" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Gamma Pro</text>
+<text x="355" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">caro</text>
+<text x="485" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">texto</text>
+<text x="615" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">15.0</text>
+<text x="745" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">gamma.ai</text>
+<text x="875" y="502" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Modelo premium de elite</text>
+<rect x="80" y="520" width="910" height="50" fill="#EEE9DD"/>
+<text x="95" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">4</text>
+<text x="225" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Delta Image</text>
+<text x="355" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">medio</text>
+<text x="485" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">imagem</text>
+<text x="615" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">2.5</text>
+<text x="745" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">delta.io</text>
+<text x="875" y="552" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Geracao de imagem media</text>
+<rect x="80" y="570" width="910" height="50" fill="#F5F1E9"/>
+<text x="95" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">5</text>
+<text x="225" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Epsilon Audio</text>
+<text x="355" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">barato</text>
+<text x="485" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">audio</text>
+<text x="615" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">0.5</text>
+<text x="745" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">epsilon.ai</text>
+<text x="875" y="602" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Audio de baixo custo</text>
+<rect x="80" y="620" width="910" height="50" fill="#EEE9DD"/>
+<text x="95" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">6</text>
+<text x="225" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Zeta Video</text>
+<text x="355" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#1B1714">caro</text>
+<text x="485" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="600" fill="#15803D">video</text>
+<text x="615" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">12.0</text>
+<text x="745" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">zeta.tv</text>
+<text x="875" y="652" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" font-weight="400" fill="#1B1714">Video premium</text>
+<path d="M 240 600 Q 240 720 130 720" stroke="#E85D00" stroke-width="2" fill="none"/>
+<polyline points="138,714 130,720 138,726" stroke="#E85D00" stroke-width="2" fill="none"/>
+<text x="80" y="760" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">coluna "tier"</text>
+<text x="80" y="780" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">vira EIXO 1</text>
+<path d="M 370 600 Q 370 720 480 720" stroke="#E85D00" stroke-width="2" fill="none"/>
+<polyline points="472,714 480,720 472,726" stroke="#E85D00" stroke-width="2" fill="none"/>
+<text x="430" y="760" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00">coluna "modalidade"</text>
+<text x="430" y="780" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">vira EIXO 2</text>
+<rect x="80" y="870" width="890" height="280" fill="none" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="920" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#15803D">Regra do catalogo</text>
+<text x="110" y="970" font-family="'Inter', 'Helvetica', sans-serif" font-size="20" fill="#1B1714">Atributo que muda a copy quando muda o valor = eixo de classificacao.</text>
+<text x="110" y="1010" font-family="'Inter', 'Helvetica', sans-serif" font-size="20" fill="#1B1714">Atributo que nao muda nada = metadado de impressao.</text>
+<text x="110" y="1060" font-family="'Inter', 'Helvetica', sans-serif" font-size="20" fill="#1B1714">2 eixos com 3 a 6 valores cada = 9 a 36 combinacoes = 9 a 36 teses.</text>
+<text x="110" y="1100" font-family="'Inter', 'Helvetica', sans-serif" font-size="20" fill="#1B1714">Cada combinacao recebe um pool de 8 a 10 variacoes por slide.</text>
+</svg>

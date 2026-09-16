@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 08  ·  FIGURA 8</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">Da pasta ao direct</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">A peca de topo aponta para o proximo degrau, nao para o mais caro.</text>
+<rect x="80" y="290" width="890" height="140" fill="#E5F4E8" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="330" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="18" font-weight="700" fill="#C64A00" letter-spacing="2">DEGRAU 0</text>
+<text x="110" y="375" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="32" font-weight="700" fill="#1B1714">carrossel</text>
+<text x="110" y="405" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#6B6358">peca de topo</text>
+<rect x="750" y="315" width="180" height="90" fill="#16A34A" rx="10"/>
+<text x="840" y="345" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#FFFFFF">sem custo</text>
+<text x="840" y="375" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">topo</text>
+<line x1="525.0" y1="430" x2="525.0" y2="445" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="450" width="890" height="140" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="490" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="18" font-weight="700" fill="#C64A00" letter-spacing="2">DEGRAU 1</text>
+<text x="110" y="535" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="32" font-weight="700" fill="#1B1714">comentario</text>
+<text x="110" y="565" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#6B6358">palavra-chave</text>
+<rect x="750" y="475" width="180" height="90" fill="#16A34A" rx="10"/>
+<text x="840" y="505" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#FFFFFF">engajamento</text>
+<text x="840" y="535" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">engaja</text>
+<line x1="525.0" y1="590" x2="525.0" y2="605" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="610" width="890" height="140" fill="#E5F4E8" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="650" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="18" font-weight="700" fill="#C64A00" letter-spacing="2">DEGRAU 2</text>
+<text x="110" y="695" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="32" font-weight="700" fill="#1B1714">DM</text>
+<text x="110" y="725" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#6B6358">link do material</text>
+<rect x="750" y="635" width="180" height="90" fill="#16A34A" rx="10"/>
+<text x="840" y="665" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#FFFFFF">captura lead</text>
+<text x="840" y="695" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">captura</text>
+<line x1="525.0" y1="750" x2="525.0" y2="765" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="770" width="890" height="140" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="810" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="18" font-weight="700" fill="#C64A00" letter-spacing="2">DEGRAU 3</text>
+<text x="110" y="855" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="32" font-weight="700" fill="#1B1714">oferta</text>
+<text x="110" y="885" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#6B6358">produto principal</text>
+<rect x="750" y="795" width="180" height="90" fill="#16A34A" rx="10"/>
+<text x="840" y="825" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#FFFFFF">venda</text>
+<text x="840" y="855" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">vende</text>
+<rect x="80" y="950" width="890" height="200" fill="none" stroke="#E85D00" stroke-width="2" rx="14"/>
+<text x="110" y="990" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#C64A00">Bloco automation no JSON</text>
+<text x="110" y="1030" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#1B1714">keywords: lista de 1 a 2 palavras</text>
+<text x="110" y="1052" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#1B1714">mensagem: DM ate 280 caracteres</text>
+<text x="110" y="1074" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#1B1714">link: mesmo para todos os itens</text>
+<text x="110" y="1096" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#1B1714">public_reply_enabled: true</text>
+<text x="110" y="1118" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#1B1714">public_reply_text: 'Te chamei no direct!'</text>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 10  ·  FIGURA 9</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">Playbook de 10 passos</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">Da proxima serie. A fabrica e o ativo, nao os posts.</text>
+<circle cx="120" cy="330" r="30" fill="#16A34A"/>
+<text x="120" y="342" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">1</text>
+<text x="180" y="328" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Escolha a fonte</text>
+<text x="180" y="352" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">catalogo com atributos que mudem a copy</text>
+<line x1="180" y1="375" x2="970" y2="375" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="420" r="30" fill="#16A34A"/>
+<text x="120" y="432" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">2</text>
+<text x="180" y="418" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Defina os eixos</text>
+<text x="180" y="442" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">2 eixos com 3 a 6 valores cada</text>
+<line x1="180" y1="465" x2="970" y2="465" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="510" r="30" fill="#16A34A"/>
+<text x="120" y="522" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">3</text>
+<text x="180" y="508" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Desenhe o contrato</text>
+<text x="180" y="532" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">campos, anatomia, automation</text>
+<line x1="180" y1="555" x2="970" y2="555" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="600" r="30" fill="#16A34A"/>
+<text x="120" y="612" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">4</text>
+<text x="180" y="598" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Peca o gerador de copy</text>
+<text x="180" y="622" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">teses + pools de 8 a 10</text>
+<line x1="180" y1="645" x2="970" y2="645" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="690" r="30" fill="#16A34A"/>
+<text x="120" y="702" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">5</text>
+<text x="180" y="688" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Peca o renderizador</text>
+<text x="180" y="712" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">Python no Colab, loop k</text>
+<line x1="180" y1="735" x2="970" y2="735" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="780" r="30" fill="#16A34A"/>
+<text x="120" y="792" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">6</text>
+<text x="180" y="778" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Gere os assets</text>
+<text x="180" y="802" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">IA de imagem, sessao UNICA</text>
+<line x1="180" y1="825" x2="970" y2="825" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="870" r="30" fill="#16A34A"/>
+<text x="120" y="882" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">7</text>
+<text x="180" y="868" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Gere 3 amostras</text>
+<text x="180" y="892" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">corrija no gerador, regenere</text>
+<line x1="180" y1="915" x2="970" y2="915" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="960" r="30" fill="#16A34A"/>
+<text x="120" y="972" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">8</text>
+<text x="180" y="958" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Capture os prints</text>
+<text x="180" y="982" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">cadeia de URLs, recheck</text>
+<line x1="180" y1="1005" x2="970" y2="1005" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="1050" r="30" fill="#16A34A"/>
+<text x="120" y="1062" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">9</text>
+<text x="180" y="1048" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Gere o lote</text>
+<text x="180" y="1072" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">filtre k abaixo de 0.85</text>
+<line x1="180" y1="1095" x2="970" y2="1095" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+<circle cx="120" cy="1140" r="30" fill="#16A34A"/>
+<text x="120" y="1152" text-anchor="middle" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">10</text>
+<text x="180" y="1138" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#1B1714">Publique pelo JSON</text>
+<text x="180" y="1162" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">Buffer, Later, Meta</text>
+<rect x="80" y="1220" width="890" height="160" fill="none" stroke="#E85D00" stroke-width="3" rx="14"/>
+<text x="110" y="1265" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="22" font-weight="700" fill="#C64A00">Onde o token GASTA (3 sessoes)</text>
+<text x="110" y="1305" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">- Sessao de design (texto): prompts mestres, template, roteiro de assets.</text>
+<text x="110" y="1335" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">- Sessao unica de geracao visual (imagem): capa, icones, moldura, detalhe de marca.</text>
+<text x="110" y="1365" font-family="'Inter', 'Helvetica', sans-serif" font-size="18" fill="#1B1714">- Sessao de guia: runbook da serie para consulta futura.</text>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1485" width="1050" height="1485">
+<rect width="1050" height="1485" fill="#F5F1E9"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="20" fill="#15803D" letter-spacing="3">CAP. 05  ·  FIGURA 5</text>
+<text x="80" y="170" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="56" font-weight="700" fill="#1B1714">Anatomia fixa dos 8 slides</text>
+<text x="80" y="215" font-family="'Inter', 'Helvetica', sans-serif" font-size="22" fill="#6B6358">A funcao e o unico campo que liga copy a layout. Trocar a regra nao regera nada.</text>
+<rect x="80" y="290" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">1</text>
+<text x="230" y="340" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 1 / 8</text>
+<text x="230" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">GANCHO</text>
+<text x="230" y="420" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">dor que termina no nome</text>
+<rect x="430" y="320" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="440" y1="340" x2="460" y2="340" stroke="#16A34A" stroke-width="2"/>
+<line x1="450" y1="330" x2="450" y2="350" stroke="#16A34A" stroke-width="2"/>
+<rect x="520" y="290" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="550" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">2</text>
+<text x="670" y="340" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 2 / 8</text>
+<text x="670" y="380" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">O QUE E</text>
+<text x="670" y="420" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">define e desarma a objecao</text>
+<rect x="870" y="320" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="880" y1="340" x2="900" y2="340" stroke="#16A34A" stroke-width="2"/>
+<line x1="890" y1="330" x2="890" y2="350" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="570" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="660" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">3</text>
+<text x="230" y="620" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 3 / 8</text>
+<text x="230" y="660" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">PRATICA</text>
+<text x="230" y="700" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">cena de uso por modalidade</text>
+<rect x="430" y="600" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="440" y1="620" x2="460" y2="620" stroke="#16A34A" stroke-width="2"/>
+<line x1="450" y1="610" x2="450" y2="630" stroke="#16A34A" stroke-width="2"/>
+<rect x="520" y="570" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="550" y="660" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">4</text>
+<text x="670" y="620" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 4 / 8</text>
+<text x="670" y="660" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">O QUE VENDER</text>
+<text x="670" y="700" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">bullets que viram proposta</text>
+<rect x="870" y="600" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="880" y1="620" x2="900" y2="620" stroke="#16A34A" stroke-width="2"/>
+<line x1="890" y1="610" x2="890" y2="630" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="850" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="940" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">5</text>
+<text x="230" y="900" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 5 / 8</text>
+<text x="230" y="940" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">COMO COBRAR</text>
+<text x="230" y="980" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">monetizacao que fecha o gancho</text>
+<rect x="430" y="880" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="440" y1="900" x2="460" y2="900" stroke="#16A34A" stroke-width="2"/>
+<line x1="450" y1="890" x2="450" y2="910" stroke="#16A34A" stroke-width="2"/>
+<rect x="520" y="850" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="550" y="940" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">6</text>
+<text x="670" y="900" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 6 / 8</text>
+<text x="670" y="940" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">LINK</text>
+<text x="670" y="980" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">preco real e link oficial</text>
+<rect x="870" y="880" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="880" y1="900" x2="900" y2="900" stroke="#16A34A" stroke-width="2"/>
+<line x1="890" y1="890" x2="890" y2="910" stroke="#16A34A" stroke-width="2"/>
+<rect x="80" y="1130" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="110" y="1220" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">7</text>
+<text x="230" y="1180" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 7 / 8</text>
+<text x="230" y="1220" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">BENCHMARK</text>
+<text x="230" y="1260" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">numero com leitura por faixa</text>
+<rect x="430" y="1160" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="440" y1="1180" x2="460" y2="1180" stroke="#16A34A" stroke-width="2"/>
+<line x1="450" y1="1170" x2="450" y2="1190" stroke="#16A34A" stroke-width="2"/>
+<rect x="520" y="1130" width="410" height="260" fill="#FFFFFF" stroke="#16A34A" stroke-width="2" rx="14"/>
+<text x="550" y="1220" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="84" font-weight="800" fill="#16A34A">8</text>
+<text x="670" y="1180" font-family="'JetBrains Mono', 'Menlo', monospace" font-size="14" fill="#C64A00" letter-spacing="2">SLIDE 8 / 8</text>
+<text x="670" y="1220" font-family="'Chakra Petch', 'Arial Black', sans-serif" font-size="26" font-weight="700" fill="#1B1714">CTA</text>
+<text x="670" y="1260" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#6B6358">promessa do tier + chamada</text>
+<rect x="870" y="1160" width="40" height="40" fill="none" stroke="#16A34A" stroke-width="2" rx="8"/>
+<line x1="880" y1="1180" x2="900" y2="1180" stroke="#16A34A" stroke-width="2"/>
+<line x1="890" y1="1170" x2="890" y2="1190" stroke="#16A34A" stroke-width="2"/>
+</svg>
