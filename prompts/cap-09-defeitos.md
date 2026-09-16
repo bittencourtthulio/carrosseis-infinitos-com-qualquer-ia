@@ -1,15 +1,19 @@
-# Prompt — Capítulo 9 · Validação contra os 7 defeitos conhecidos
+# Prompt 09: Validação dos defeitos
 
-**Quando usar:** depois de gerar os 3 itens-piloto do capítulo 7, para conferir que nenhum dos 7 defeitos conhecidos aparece antes de gerar o lote.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 9, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
+## Prompt completo
 
 ```
 Você é meu engenheiro de qualidade de carrosséis.
+Atue como agente local no Claude Code ou OpenCode.
+Leia os arquivos, faça as correções e execute os scripts.
+Não peça para eu aplicar trechos de código manualmente.
 
 Gerei 3 itens-piloto da minha série (24 PNGs no total). Ao
 conferir os PNGs contra os 7 defeitos conhecidos da série
@@ -35,56 +39,28 @@ Para cada defeito encontrado:
   - Reescreva APENAS a parte com defeito (não o template
     inteiro, não o prompt inteiro). Mudança mínima, máxima
     eficácia.
-  - Me dê o trecho de código ou prompt antes/depois.
+  - Edite os arquivos locais responsáveis pelo defeito.
+  - Execute novamente os itens afetados na .venv.
+  - Confira as imagens e registre o teste realizado.
 
 Termine com a lista de mudanças que você fez e por que
 essas mudanças eliminam a CLASSE de erro (não só o item
 específico).
+Salve logs/correcoes.md e abra a galeria atualizada.
+Se não conseguir executar, informe o bloqueio real.
+Não substitua prova de execução por código sugerido.
 ```
 
-## Os 7 defeitos conhecidos (resumo)
+## Como conferir a entrega
 
-| # | Defeito | Causa raiz | Correção |
-|---|---|---|---|
-| 1 | Slide 3 repete cena (ex.: "foto da nota fiscal") | Pool < 8 variações por modalidade | Mínimo 8 variações no prompt do cap 4 |
-| 2 | Slide estoura 100px sem ajustar | Asset posicionado com `bottom: -50px` | Posicionar com `top`, usar `overflow: hidden` |
-| 3 | Print do slide 6 mostra preço pago | Cadeia de URL não usa `:free` para tier free | Validar conteúdo (não só status 200) no script de captura |
-| 4 | Card promocional fora de pico | Captura de card isolado em vez de tabela | Empilhar cabeçalho com tabela de preços |
-| 5 | "1049k tokens" (deveria ser "1M") | Divisão por 1000 em vez de 1048576 | Formatar múltiplos de 2^20 |
-| 6 | Catálogo diz que tem print, pasta não tem | Catálogo não foi regenerado após captura | Regenerar catálogo no fim da captura |
-| 7 | CTA ilegível no tema escuro | Texto do pill usa variação escurecida | Usar acento puro no CSS |
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-## Como aplicar este prompt
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-1. Abra os 24 PNGs (3 itens × 8 slides) no visualizador.
-2. Para cada slide, passe pela tabela acima. Anote os defeitos em uma frase por linha.
-3. Cole a lista de defeitos encontrados no prompt.
-4. A IA ajusta o template / prompt-mestre / script.
-5. Regere os 3 itens-piloto.
-6. Repita até nenhum defeito aparecer.
-7. Quando os 7 defeitos não aparecerem nos 3 itens-piloto, gere o lote.
+## Origem
 
-## Variação: validar a série inteira, não só os 3 itens-piloto
+- Capítulo: 09.
+- Seção do livro: Prompt para colar na IA.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-Se você já gerou o lote e quer validar todos os 418 itens:
-
-```
-Adicione ao prompt:
-"Em vez de validar 3 itens, valide os [N] itens da série
-(que estão na pasta 04-pngs/). Para cada defeito encontrado
-em qualquer item, me dê a lista de itens afetados, a
-correção, e o item-piloto a ser regenerado.
-```
-
-Atenção: esse modo demora mais (a IA precisa ler o PNG de cada item), mas pega defeitos que aparecem só em combinações específicas.
-
-## O que conferir depois
-
-- A IA identificou a causa raiz de cada defeito?
-- A IA reescreveu apenas a parte com defeito (não o template inteiro)?
-- A correção elimina a CLASSE de erro (não só o item específico)?
-- Depois da correção, os 3 itens-piloto regenerados não têm nenhum dos 7 defeitos?
-
-## Saída esperada
-
-Lista de mudanças (com diff antes/depois) que eliminam a classe de erro. Aplique, regenere, repita até os 7 defeitos não aparecerem.
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

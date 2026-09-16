@@ -1,52 +1,60 @@
-# Prompt — Capítulo 1 · A armadilha do token na peça
+# Prompt 01: A armadilha do token na peça
 
-**Quando usar:** quando você ainda não decidiu se vai pelo jeito 1 (IA gera cada peça) ou pelo jeito 2 (IA gera o sistema que gera as peças).
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 1, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
-
-Cole este bloco no ChatGPT, Claude ou Gemini. Troque os colchetes pelos seus dados antes de colar.
+## Prompt completo
 
 ```
-Você é meu consultor de IA aplicada a marketing de conteúdo.
-Eu uso (ou estou prestes a usar) IA para escrever cada carrossel
+Você é meu agente local no Claude Code ou OpenCode.
+Trabalhe na pasta aberta e leia AMBIENTE.md.
+Minha série é sobre [TEMA], para [PÚBLICO].
+Eu uso (ou estou prestes a usar) IA para escrever cada
+    carrossel
 individualmente, peça por peça.
 
-Me explique, com UMA analogia de leigo, por que pedir para a IA
-escrever cada carrossel individualmente é mais caro em token,
-mais lento em revisão e menos consistente em marca do que gastar
-uma sessão maior de tokens para construir o sistema que escreve
+Me explique,
+    com UMA analogia de leigo, por que pedir para a IA
+escrever cada carrossel individualmente é mais caro
+    em token,
+mais lento em revisão e
+    menos consistente em marca do que gastar
+uma sessão maior de tokens para construir o sistema
+    que escreve
 os carrosséis.
 
 Use linguagem de quem nunca programou. Máximo de 1 página.
-Termine com 3 perguntas para eu identificar se estou cometendo
+Crie DECISAO.md com a explicação e as perguntas abaixo.
+Registre o que ainda depende da minha resposta.
+Não invente contagens de tokens ou economia garantida.
+Mostre o caminho do arquivo realmente criado.
+Termine com 3 perguntas para eu identificar se estou
+    cometendo
 esse erro na minha série atual:
 
   1. Estou reescrevendo o prompt a cada peça, ou tenho um
      prompt-mestre?
-  2. Quando preciso corrigir uma regra de copy, eu regenero a
+  2. Quando preciso corrigir uma regra de copy,
+    eu regenero a
      peça errada ou corrijo o prompt e regenero o lote?
   3. O token que eu já gastei até hoje seria suficiente para
      ter construído o sistema completo?
 ```
 
-## Variações
+## Como conferir a entrega
 
-**Para Claude (Anthropic):** o prompt funciona como está. Se quiser instruir tom, adicione no início: "Responda em tom conversacional, sem jargão técnico, como se explicasse para um amigo empreendedor."
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-**Para Gemini (Google):** idem. Se a resposta vier muito longa, adicione no final: "Responda em no máximo 400 palavras. Use uma única analogia."
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-## O que conferir depois
+## Origem
 
-- A analogia fez sentido? Se não, peça: "Me dê uma analogia diferente, ainda mais simples."
-- As 3 perguntas finais caem na sua realidade? Se sim, você está no jeito 1 e este livro é para você.
-- A resposta cabe em 1 página? Se passar, peça para resumir.
+- Capítulo: 01.
+- Seção do livro: Prompt para colar na IA.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-## Saída esperada
-
-A IA devolve (a) uma analogia curta que explica a diferença entre os dois jeitos, (b) opcionalmente uma mini-conta de tokens, e (c) três perguntas de autodiagnóstico.
-
-Guarde a resposta em `fabrica-carrosseis/cap01/` para consulta futura.
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

@@ -1,15 +1,20 @@
-# Prompt — Capítulo 5 (1/2) · Anatomia dos 8 slides
+# Prompt 05: Anatomia dos slides
 
-**Quando usar:** depois de validar as teses e pools, para fixar a anatomia dos 8 slides (a função de cada um, o que carrega, o tom e o exemplo de copy).
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 5, seção "Prompt para colar na IA (anatomia dos 8 slides)".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
+## Prompt completo
 
 ```
-Você é meu diretor de arte de uma série de carrosséis.
+Você é meu agente local e diretor de arte desta série.
+Leia PROJETO.md e 02-copy/CONTRATO.md.
+Crie TEMPLATE.md nesta pasta com a entrega abaixo.
+Crie também 04-pngs/assets/BRIEFINGS.md.
+Não deixe o resultado somente nesta conversa.
 
 Minha série tem a tese [TESE GERAL, ex: "Cada LLM é uma
 ferramenta de receita diferente para software house"] e o
@@ -20,7 +25,7 @@ Os 2 eixos de classificação dos itens são:
   Eixo 2: [NOME] (valores: [LISTA])
 
 Aqui está a tabela de teses por combinação:
-  [COLE A TABELA DO PROMPT 1 DO CAPÍTULO 4]
+  Leia 02-copy/teses.md, salvo no capítulo anterior.
 
 Me dê a anatomia fixa dos 8 slides para esta série:
 
@@ -48,15 +53,27 @@ Termine com:
     esta série (capa, ícones, molduras etc.).
   - Briefing de 1 parágrafo para cada asset, pronto para eu
     colar na IA de imagem.
+
+Registre em TEMPLATE.md os limites de texto,
+tamanhos mínimos de fonte e áreas reservadas às imagens.
+Confira os arquivos já disponíveis em 04-pngs/assets.
+Se houver uma ferramenta de imagem conectada, use-a
+para produzir uma amostra e salve o arquivo real.
+Se não houver, indique o briefing que devo levar
+à IA de imagem e onde salvar o resultado aprovado.
+Não trate um briefing escrito como imagem já gerada.
 ```
 
-## O que conferir depois
+## Como conferir a entrega
 
-- Os 8 slides cobrem gancho, definição, prática, venda, monetização, link, prova e CTA?
-- O exemplo de copy de cada slide cita o item de exemplo e bate com a tese da combinação?
-- Algum slide parece redundante com outro? Peça fusão.
-- A lista de assets visuais tem capa, ícones, moldura e detalhe de marca?
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-## Saída esperada
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-A IA devolve a anatomia detalhada dos 8 slides (função, conteúdo, tom, layout, exemplo de copy) e a lista de assets visuais com briefing para cada um. Salve como `fabrica-carrosseis/cap05-anatomia.md`.
+## Origem
+
+- Capítulo: 05.
+- Seção do livro: Prompt para colar na IA (anatomia dos 8 slides).
+- Revisão: execução local com Claude Code ou OpenCode.
+
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

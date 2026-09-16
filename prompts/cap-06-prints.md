@@ -1,106 +1,59 @@
-# Prompt — Capítulo 6 · Captura de prints em escala
+# Prompt 06: Captura de prints
 
-**Quando usar:** depois de validar o catálogo do capítulo 3, para escrever o script de captura que baixa os 4 prints de cada item.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 6, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
+## Prompt completo
 
 ```
-Você é meu engenheiro de captura de imagens em escala.
+Implemente a captura de provas neste projeto local.
+Leia AMBIENTE.md, PROJETO.md, 02-copy/CONTRATO.md
+e 02-copy/carrosseis.json.
+Use o Python da .venv. Crie e execute os arquivos;
+não entregue somente código nesta conversa.
 
-Preciso capturar 4 prints por item para uma série de [N, ex:
-418] carrosséis. Cada item tem 4 prints:
+Crie scripts/capturar_prints.py para localizar as
+provas exigidas e salvar em 03-prints/[id]/.
+Use URLs registradas nos dados e alternativas
+que sustentem a mesma afirmação do slide.
+Se faltar uma fonte, registre a pendência.
+Não invente preço, benchmark ou tela de produto.
 
-  tela.png (tela principal do produto ou serviço)
-  funcionalidade.png (funcionalidade em uso)
-  preco.png (página de preço oficial)
-  benchmark.png (número ou prova social)
+Instale as dependências no ambiente do projeto.
+Use navegador automatizado para capturar a página.
+Não confunda HTTP 200 com prova correta.
+Trate login, página de erro e bloqueios como pendências.
+Se HEAD falhar, não descarte sem conferir a navegação.
+Não substitua uma prova por uma imagem gerada por IA.
 
-Minha planilha de catálogo está em
-[URL_DO_GOOGLE_SHEETS] e tem as colunas [LISTA]. A coluna
-[NOME_DA_COLUNA_DE_URL, ex: url_oficial] tem a URL principal
-de cada item.
+Crie 03-prints/inventario.json com ID, slide,
+URL, data, caminho e estado de cada captura.
+Mantenha o histórico ao revalidar uma fonte.
+Não apague uma prova antiga por um erro transitório.
 
-A cadeia de URLs alternativas para cada print é:
-  Tela principal: [URL_PRINCIPAL] → [URL_ALTERNATIVA_1] →
-  [URL_ALTERNATIVA_2]
-  Funcionalidade: [URL_PRINCIPAL] → [URL_ALTERNATIVA_1]
-  Preço: [URL_PRINCIPAL] → [URL_ALTERNATIVA_1]
-  Benchmark: [URL_PRINCIPAL] → [URL_ALTERNATIVA_1]
-
-Me escreva um script Python que:
-
-  1. Lê a planilha do Google Sheets (use a biblioteca gspread
-     ou similar).
-  2. Para cada item, tenta cada URL da cadeia, na ordem, com
-     uma chamada HEAD antes de abrir a página.
-  3. Se a URL responde 200, abre a página em browser headless
-     (use Playwright).
-  4. Captura o conteúdo central, com margem de [N, ex: 100]
-     pixels em cada lado.
-  5. Salva em pasta local no formato:
-     [ID_DO_ITEM]/[FUNCAO_DO_PRINT].png
-     Exemplo: 001-alpha-3-5/tela.png
-  6. Atualiza a planilha catálogo com o status de cada print
-     (capturado / faltando / URL morta).
-
-Termine com:
-  - Lista de bibliotecas Python que o script usa.
-  - Como rodar no Google Colab (sem instalar nada).
-  - Como rodar o modo recheck (varredura que apaga prints
-    cuja URL morreu).
+Execute até três itens representativos.
+Verifique se os arquivos abrem e têm conteúdo útil.
+Monte uma galeria local com fonte e finalidade.
+Se ocorrer erro técnico, corrija e execute novamente.
+Prepare seleção por IDs, lote e retomada.
+Mostre o comando executado, os arquivos gravados
+e quais provas precisam da minha conferência.
 ```
 
-## Como rodar no Google Colab
+## Como conferir a entrega
 
-1. Abra `colab.research.google.com`.
-2. Crie um notebook novo.
-3. Cole o script na primeira célula.
-4. Instale as bibliotecas na segunda célula:
-   ```python
-   !pip install gspread playwright pillow
-   !playwright install chromium
-   ```
-5. Autorize o acesso ao Google Sheets na terceira célula:
-   ```python
-   from google.colab import auth
-   auth.authenticate_user()
-   ```
-6. Rode o script na quarta célula.
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-## Modo recheck (semanal)
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-Adicione ao final do script:
+## Origem
 
-```python
-def recheck(planilha_url, pasta_raiz):
-    """Apaga prints cuja URL morreu."""
-    df = ler_planilha(planilha_url)
-    for _, item in df.iterrows():
-        for funcao in ['tela', 'funcionalidade', 'preco', 'benchmark']:
-            url = item.get(f'url_{funcao}')
-            if not url:
-                continue
-            if HEAD(url).status_code != 200:
-                arquivo = f"{pasta_raiz}/{item['id']}/{funcao}.png"
-                if os.path.exists(arquivo):
-                    os.remove(arquivo)
-                    print(f"Apagado: {arquivo}")
-```
+- Capítulo: 06.
+- Seção do livro: Prompt para colar no agente.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-Rode semanalmente (sexta à noite, por exemplo).
-
-## O que conferir depois
-
-- O script tenta cada URL da cadeia antes de desistir?
-- O script faz HEAD antes de abrir o browser (não desperdiça tempo)?
-- O script salva no formato `[id]/[funcao].png`?
-- O script atualiza a planilha catálogo com o status?
-- O modo recheck está implementado?
-
-## Saída esperada
-
-Script Python funcional para Google Colab + lista de bibliotecas + instruções de recheck. Cole no Colab, rode, e a pasta `03-prints/` se preenche sozinha em minutos.
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

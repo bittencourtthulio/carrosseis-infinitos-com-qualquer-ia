@@ -1,15 +1,19 @@
-# Prompt — Capítulo 4 (2/2) · Pools de variações
+# Prompt 04: Pools de variações
 
-**Quando usar:** depois de validar as teses por combinação, para gerar 8 a 10 variações por slide em cada combinação.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 4, seção "Prompt 2 para colar na IA (pools de variações)".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
+## Prompt completo
 
 ```
-Você é meu redator de copy para uma série de carrosséis.
+Você é meu agente local no Claude Code ou OpenCode.
+Leia o catálogo, seu esquema e 02-copy/teses.md.
+Crie os arquivos e execute o gerador; não entregue
+somente uma resposta de texto nesta conversa.
 
 A série tem a anatomia fixa de 8 slides:
   1. gancho (dor concreta que termina no nome do item)
@@ -21,9 +25,7 @@ A série tem a anatomia fixa de 8 slides:
   7. benchmark (número real com leitura por faixa)
   8. cta (promessa do tier + chamada para ação)
 
-Aqui está a tabela de teses por combinação:
-
-  [COLE A TABELA DO PROMPT 1]
+Use a tabela de teses salva no passo anterior.
 
 Para CADA combinação de eixos e para CADA slide (exceto o
 slide 6, que tem preço fixo), gere um POOL de 8 a 10
@@ -31,11 +33,14 @@ variações.
 
 Cada variação deve:
   - Caber em até [N, ex: 100] caracteres.
-  - Conter 1 a 3 "trechos de destaque" (palavras ou expressões
+  - Conter 1 a 3 "trechos de destaque" (palavras ou
+    expressões
     curtas que viram negrito no post).
-  - Ser semanticamente diferente das outras variações do pool
+  - Ser semanticamente diferente das outras variações
+    do pool
     (não ser paráfrase).
-  - No slide 1 (gancho), terminar no NOME do item (placeholder
+  - No slide 1 (gancho),
+    terminar no NOME do item (placeholder
     {{NOME}}). No slide 2 (o_que_e), abrir com "Esse é o
     {{NOME}}".
   - Usar vocabulário alinhado ao público e ao tom.
@@ -53,24 +58,33 @@ Formato de saída:
 
   Combinação: (VALOR_1, VALOR_B)
     ...
+
+Salve os pools em 02-copy/pools.json com versão.
+Crie scripts/gerar_copy.py para ler o catálogo,
+classificar os itens e selecionar variações por
+hash estável do ID, sem chamar modelo de IA.
+Use as fontes para preencher os campos factuais.
+Não transforme preço alto em prova de qualidade.
+Não prometa capacidade que os dados não comprovam.
+
+Execute uma amostra de até três itens.
+Salve 02-copy/carrosseis.json com oito slides por item,
+função, texto, destaques, provas exigidas e legenda.
+Documente o contrato em 02-copy/CONTRATO.md.
+Repita a execução e confira o determinismo da saída.
+Mostre os arquivos criados e as verificações feitas.
 ```
 
-## Regra de ouro
+## Como conferir a entrega
 
-Se a IA devolver menos de 8 variações por slide, peça:
-"Preciso de no mínimo 8 variações por slide. Varie os argumentos, não só as palavras. Se você sente que já repetiu, inverta a estrutura da frase."
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-Se a IA devolver paráfrases ("X é bom" / "X é ótimo" / "X é excelente"), peça:
-"Reescreva essas variações. Cada uma precisa ter um argumento diferente. Se duas variações só trocam uma palavra, considere-as a mesma."
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-## O que conferir depois
+## Origem
 
-- Pools têm 8 a 10 variações por slide (exceto slide 6)?
-- Slide 1 (gancho) sempre termina em `{{NOME}}`?
-- Slide 2 (o_que_e) sempre abre com "Esse é o `{{NOME}}`"?
-- Cada variação tem 1 a 3 trechos de destaque (não a frase inteira)?
-- Variações são semanticamente diferentes (não paráfrases)?
+- Capítulo: 04.
+- Seção do livro: Prompt 2 para colar na IA (pools de variações).
+- Revisão: execução local com Claude Code ou OpenCode.
 
-## Saída esperada
-
-Para cada combinação de eixos, 8 listas numeradas (uma por slide, exceto slide 6), cada lista com 8 a 10 entradas no formato "texto | destaque: [...]".
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

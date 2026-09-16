@@ -1,70 +1,54 @@
-# Prompt — Capítulo 10 · Auditoria de prontidão da próxima série
+# Prompt 10: Auditoria de prontidão
 
-**Quando usar:** quando você quiser abrir uma nova série (tema diferente) e quiser saber se está pronto para rodar o playbook antes de começar.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 10, seção "Passo a passo (aplicar o playbook à próxima série)".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
-
-```
-Você é meu auditor de prontidão de série.
-
-Estou planejando minha próxima série de carrosséis. Antes de
-rodar o playbook, quero saber se estou pronto.
-
-Minha próxima série:
-  - Tema: [TEMA]
-  - Público: [PÚBLICO]
-  - Produto que estou vendendo: [PRODUTO]
-  - Volume estimado: [N, ex: 100] carrosséis
-  - Volume de posts por semana: [N, ex: 5]
-
-Aqui está o que já tenho:
-  - Catálogo: [SIM/NÃO] (se sim, [N] linhas, com as colunas
-    [LISTA])
-  - Eixos definidos: [SIM/NÃO] (se sim, [EIXO 1] com [LISTA]
-    e [EIXO 2] com [LISTA])
-  - Tabela de teses: [SIM/NÃO] (se sim, quantas combinações)
-  - Pools de variações: [SIM/NÃO] (se sim, quantas variações
-    por slide na média)
-  - Anatomia dos 8 slides: [SIM/NÃO]
-  - Assets visuais: [SIM/NÃO] (capa nova, ícones de tier,
-    moldura)
-  - Prints capturados: [SIM/NÃO]
-  - Renderizador testado em 3 amostras: [SIM/NÃO]
-  - Automação de DM configurada: [SIM/NÃO]
-
-Me faça 10 perguntas para eu saber se estou pronto para rodar
-o playbook. Não responda por mim. Apenas pergunte.
-
-Depois que eu responder, me dê um relatório de prontidão
-com: (a) o que está pronto, (b) o que está faltando, (c)
-qual o próximo passo imediato.
-```
-
-## Variação: para uma série que reaproveita a fábrica anterior
-
-Se você está abrindo uma série 2 sobre tema diferente mas mantendo a marca visual (paleta, fontes, ícones de tier), adicione:
+## Prompt completo
 
 ```
-Da série anterior [NOME_DA_SERIE], vou reaproveitar:
-  - Paleta visual
-  - Fontes (Chakra Petch, JetBrains Mono, Inter)
-  - Ícones de tier
-  - Detalhe de marca
-Vou gerar:
-  - Capa nova
-  - Moldura nova (se o estilo mudou)
+Estou na pasta local da fábrica já construída.
+Uso Claude Code ou OpenCode com ferramentas de execução.
+Prepare a próxima série sem refazer o que já funciona.
+
+Tema: [TEMA]
+Público: [PÚBLICO]
+Objetivo: [OBJETIVO]
+Fonte dos novos dados: [ARQUIVO OU URL]
+
+Leia AMBIENTE.md, PROJETO.md, TEMPLATE.md
+e COMO-GERAR.md. Inspecione scripts e arquivos.
+Crie NOVA-SERIE.md com o que será reutilizado,
+o que precisa mudar e quais dados ainda faltam.
+Preserve a série anterior em uma versão identificada.
+
+Prepare os diretórios e a importação da nova fonte.
+Execute a validação do catálogo e registre pendências.
+Atualize o contrato e as regras que eu aprovar.
+Não gere fatos, preços ou provas ausentes.
+
+Rode uma amostra com os programas locais existentes.
+Se faltar uma decisão editorial, pergunte objetivamente.
+Se houver erro técnico, corrija e execute de novo.
+Abra a galeria da amostra e mostre os caminhos reais.
+Registre em logs/nova-serie.json os testes executados.
+Não chame modelos de IA dentro dos geradores do lote.
+Informe a condição que falta para liberar a produção.
 ```
 
-## O que conferir depois
+## Como conferir a entrega
 
-- A IA fez 10 perguntas (não respondeu por você)?
-- As perguntas cobrem catálogo, eixos, teses, pools, anatomia, assets, prints, renderizador, automação?
-- Quando você respondeu, a IA devolveu "pronto para gerar o lote" ou pediu mais informação?
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-## Saída esperada
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-A IA devolve um relatório de prontidão com 3 listas (o que está pronto, o que está faltando, próximo passo). Se algo está faltando, siga o playbook do capítulo 10 (passos 1 a 10) para preencher.
+## Origem
+
+- Capítulo: 10.
+- Seção do livro: Prompt para colar no agente: preparar a próxima série.
+- Revisão: execução local com Claude Code ou OpenCode.
+
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

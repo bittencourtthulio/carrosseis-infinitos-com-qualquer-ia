@@ -1,81 +1,56 @@
-# Prompt — Capítulo 2 · A fábrica em cinco estágios
+# Prompt 02: A fábrica em cinco estágios
 
-**Quando usar:** quando você decidiu ir pelo jeito 2 e quer desenhar a esteira completa da sua série, do catálogo ao post agendado.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 2, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
-
-Cole este bloco no ChatGPT, Claude ou Gemini. Preencha os colchetes com seus dados.
+## Prompt completo
 
 ```
-Você é meu arquiteto de produção de conteúdo. Quero produzir
-[N, ex: 100, 200, 500] carrosséis sobre [TEMA, ex: ferramentas
-de IA para programadores] para vender [PRODUTO/SERVIÇO/IDEIA].
+Implemente a estrutura da minha fábrica nesta pasta.
+Use Claude Code ou OpenCode para criar os arquivos.
+Não devolva apenas uma sugestão de organização.
 
-Me ajude a desenhar a esteira em 5 estágios, no mesmo padrão
-que vou te explicar:
+Tema: [TEMA]
+Público: [PÚBLICO]
+Objetivo do conteúdo: [OBJETIVO]
+Dados que já tenho: [ARQUIVO OU FONTE]
 
-  Estágio 1: Fonte de dados. Entrada: [descreva o que você tem].
-  Saída: planilha bruta. Ferramenta sugerida: Google Sheets.
-  Estágio 2: Gerador de copy. Entrada: planilha do estágio 1.
-  Saída: planilha de copy com 8 slides por item. Ferramenta:
-  ChatGPT/Claude/Gemini + Sheets.
-  Estágio 3: Captura de prints. Entrada: planilha do estágio 2.
-  Saída: pasta de imagens. Ferramenta: extensão de Chrome ou
-  script.
-  Estágio 4: Renderizador. Entrada: planilha do estágio 2 e
-  pasta de imagens. Saída: PNGs 1080x1350. Ferramenta: script
-  Python no Google Colab OU Canva manual.
-  Estágio 5: Publicador. Entrada: PNGs do estágio 4. Saída:
-  posts agendados. Ferramenta: Buffer, Later ou Meta Business
-  Suite.
+Leia AMBIENTE.md e DECISAO.md, se existirem.
+Crie PROJETO.md com objetivo, entradas, saídas
+e critério de conclusão de cada uma das etapas:
+catálogo, texto, provas, imagens e publicação.
 
-Para CADA estágio, me dê:
-  - Nome curto
-  - Entrada (o que lê)
-  - Saída (o que escreve)
-  - Ferramenta sugerida (preferência por gratuita)
-  - Quem faz (eu, a IA, ou um script que a IA vai escrever)
+Prepare as pastas 01-catalogo, 02-copy, 03-prints,
+04-pngs/assets, 05-publicados, scripts e logs.
+Adote CSV local para o catálogo e JSON para os textos.
+Registre os nomes de arquivo que cada etapa vai ler.
+Não transforme os programas em clientes de API de IA.
+A produção deverá usar regras e arquivos locais.
 
-Termine com a lista do que eu preciso ter aberto antes de
-começar (contas, planilhas, pastas).
+Crie um README.md para leigo, explicando onde olhar
+depois de cada etapa. Liste dados que ainda faltam.
+Não preencha fatos reais com exemplos inventados.
+Se precisar exemplificar a estrutura, identifique
+os dados como fictícios e separe-os do catálogo real.
+
+Confira no disco os diretórios e documentos criados.
+Termine com os caminhos e a próxima ação concreta.
 ```
 
-## Exemplos preenchidos
+## Como conferir a entrega
 
-### Exemplo 1: software house
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-- `[N]`: 200
-- `[TEMA]`: modelos de IA para usar em código de produção
-- `[PRODUTO/SERVIÇO/IDEIA]`: mentoria em grupo para líderes técnicos
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-### Exemplo 2: restaurante
+## Origem
 
-- `[N]`: 60
-- `[TEMA]`: pratos do cardápio de inverno
-- `[PRODUTO/SERVIÇO/IDEIA]`: serviço de entrega no bairro
+- Capítulo: 02.
+- Seção do livro: Prompt para colar no agente.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-### Exemplo 3: agência de marketing
-
-- `[N]`: 150
-- `[TEMA]`: ferramentas de IA para equipes pequenas
-- `[PRODUTO/SERVIÇO/IDEIA]`: assinatura mensal da agência
-
-## Variações
-
-**Para ferramentas que não conhece:** adicione "Só sugira ferramentas com versão gratuita ou que eu já tenha conta. Se precisar de uma ferramenta nova, explique o custo."
-
-**Para séries muito pequenas (menos de 30 peças):** adicione "Como o volume é pequeno, me diga quais estágios eu posso fundir ou pular sem perder qualidade."
-
-## O que conferir depois
-
-- Os 5 estágios têm entradas e saídas concretas (arquivos nomeados)?
-- As ferramentas sugeridas são gratuitas ou têm versão gratuita?
-- O fluxo de arquivos cabe na sua pasta do Drive?
-
-## Saída esperada
-
-A IA devolve um diagrama em texto dos 5 estágios, com nome, entrada, saída, ferramenta sugerida e responsável por cada um. No final, uma checklist do que você precisa ter aberto antes de começar.
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

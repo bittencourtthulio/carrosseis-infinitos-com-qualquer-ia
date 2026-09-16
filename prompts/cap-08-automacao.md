@@ -1,78 +1,48 @@
-# Prompt — Capítulo 8 (1/2) · Bloco de automação para os 3 primeiros itens
+# Prompt 08: Bloco de automação
 
-**Quando usar:** depois de gerar os PNGs do capítulo 7, para montar o bloco `automation` da planilha (palavra-chave, DM, link, public reply).
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 8, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
+## Prompt completo
 
 ```
-Você é meu arquiteto de automação de marketing.
+Trabalhe nos arquivos locais desta fábrica.
+Leia PROJETO.md e 02-copy/carrosseis.json.
+Minha chamada para ação é: [AÇÃO DO LEITOR]
+O destino real é: [LINK]
+A ferramenta de publicação é: [NOME OU NÃO DEFINIDA]
 
-Minha série de [N] carrosséis está pronta. Cada peça tem um
-slide 8 (CTA) que termina com a frase:
-  "[FRASE DO CTA, ex: 'Comenta LLM gratuito que eu te mando
-  o comparativo no direct']"
+Crie 05-publicados/REGRAS.md com o próximo passo,
+a legenda-base e, se aplicável, a regra de comentário
+e a mensagem de DM. Use campos de personalização
+somente quando a ferramenta escolhida os suportar.
 
-A escada da minha série é:
-  - Degrau 0: peça do carrossel (sem custo)
-  - Degrau 1: comentário com palavra-chave
-  - Degrau 2: DM com [MATERIAL GRATUITO, ex: 'PDF comparativo
-    dos modelos']
-  - Degrau 3: convite para [PRÓXIMO PASSO, ex: 'aula
-    experimental de 30 minutos']
-  - Degrau 4: oferta de [PRODUTO PRINCIPAL, ex: 'mentoria
-    em grupo']
+Crie uma amostra em 05-publicados/amostra.json
+para até três itens, reutilizando os textos aprovados.
+Confira alinhamento com o último slide e o destino.
+Não invente URL, credencial ou recurso da ferramenta.
 
-O material gratuito do degrau 2 está em [LINK].
-O convite para o degrau 3 é enviado em sequência, 2 dias
-depois, por outra automação (não neste livro).
-
-A copy dos 3 primeiros itens da minha série é:
-
-  Item 1 - [NOME]:
-    Slide 1 (gancho): "[COPY]"
-    Slide 8 (cta): "[COPY]"
-  Item 2 - [NOME]:
-    Slide 1 (gancho): "[COPY]"
-    Slide 8 (cta): "[COPY]"
-  Item 3 - [NOME]:
-    Slide 1 (gancho): "[COPY]"
-    Slide 8 (cta): "[COPY]"
-
-Para cada um desses 3 itens, me dê o bloco de automation
-pronto, no formato:
-
-  item [N]:
-    keywords: [LISTA DE 1 A 3 PALAVRAS-CHAVE]
-    mensagem: "[TEXTO DO DM, com {{nome}} onde entra o nome do
-      leitor, e com link {{link}} onde entra o link do
-      material]"
-    link: "[LINK DO MATERIAL GRATUITO]"
-    public_reply_enabled: true
-    public_reply_text: "[TEXTO DA RESPOSTA PÚBLICA]"
-
-Justifique em 1 frase cada escolha (por que essa palavra-
-chave, por que essa mensagem, por que esse public reply).
+Separe claramente: arquivos preparados, integração
+conectada, teste realizado e publicação confirmada.
+Se faltar acesso, mostre a ação que depende de mim.
+Não diga que enviou uma DM só porque salvou o JSON.
+Mostre os arquivos criados e a amostra para revisão.
 ```
 
-## Regras para validar a resposta
+## Como conferir a entrega
 
-- **Palavra-chave:** 1 a 2 palavras, alinhada com a categoria do item e com a copy do slide 1.
-- **Mensagem do DM:** até 280 caracteres, com `{{nome}}` e `{{link}}`.
-- **Link:** o mesmo para todos os itens da série (a menos que você queira diferenciar por tier).
-- **Public reply:** uma das frases curtas ("Te chamei no direct!", "Material na sua DM :)", "Confere o direct").
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-## O que conferir depois
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-- A palavra-chave tem no máximo 2 palavras?
-- A mensagem do DM cabe em 280 caracteres?
-- O `{{nome}}` está dentro da mensagem?
-- O public reply está habilitado em todos os 3 itens?
-- O link é o mesmo para todos os 3 itens (ou você justificou a diferença)?
+## Origem
 
-## Saída esperada
+- Capítulo: 08.
+- Seção do livro: Prompt para colar no agente: preparar as regras.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-Bloco `automation` pronto para os 3 primeiros itens, com justificativa. Depois de validar, aplique aos outros 415 itens usando o segundo prompt (`cap-08-automacao-massa.md`).
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.

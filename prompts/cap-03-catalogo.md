@@ -1,91 +1,53 @@
-# Prompt — Capítulo 3 · A fonte de dados (catálogo)
+# Prompt 03: Estruture o catálogo
 
-**Quando usar:** quando você tem o tema da série mas ainda não decidiu quais colunas vão na planilha catálogo, ou quais atributos viram eixos de classificação.
+Material do livro **Carrosséis Infinitos com Qualquer IA: Praticamente Sem Gastar Tokens**.
 
-**Onde é citado no livro:** capítulo 3, seção "Prompt para colar na IA".
+## Onde usar
 
----
+Cole este prompt em: Claude Code ou OpenCode, na pasta local da fábrica. Substitua os campos entre colchetes por seus dados.
+A sessão precisa ter ferramentas para editar arquivos e executar comandos. Um chat comum sem acesso à máquina não consegue cumprir a etapa local.
 
-## O prompt
-
-Cole este bloco no ChatGPT, Claude ou Gemini. Preencha os colchetes e inclua 10 linhas reais do seu catálogo (copie e cole do Google Sheets como tabela).
-
-```
-Você é meu arquiteto de catálogo para uma série de carrosséis.
-
-Minha série é sobre [TEMA]. O catálogo que estou montando tem
-[N, ex: 200] itens. Abaixo segue uma amostra de 10 linhas
-reais do catálogo, no formato de tabela:
-
-| id | nome | [SUAS COLUNAS] |
-| 1  | ...  | ...            |
-| 2  | ...  | ...            |
-| ...                        |
-
-Quero produzir carrosséis sobre [TEMA] no formato do livro
-"Carrosséis Infinitos com Qualquer IA" (anatomia fixa de 8
-slides, copy por peça gerada a partir de eixos de
-classificação).
-
-Para esse catálogo:
-
-1. Quais colunas são ÚTEIS para gerar copy diferente para cada
-   item (atributos que mudam a copy)? Liste e explique em 1
-   frase cada.
-
-2. Quais colunas são apenas metadados para o renderizador (cor
-   de destaque, URL de logo) e não afetam a copy? Liste e
-   explique.
-
-3. Sugira 2 eixos de classificação para a copy:
-     - Eixo 1: nome, valores possíveis (3 a 6), com base nas
-       colunas do meu catálogo.
-     - Eixo 2: nome, valores possíveis (3 a 6), com base nas
-       colunas do meu catálogo.
-   Para cada eixo, justifique em 1 frase por que esses valores
-   geram copy diferente.
-
-4. Alguma coluna importante está faltando no meu catálogo para
-   sustentar esses eixos? Sugira até 3 colunas novas.
-
-5. Alguma coluna existe mas não serve para nada? Sugira
-   remover.
-
-Termine com a estrutura final da planilha (nome e tipo de cada
-coluna), pronta para eu aplicar.
-```
-
-## Exemplo preenchido
+## Prompt completo
 
 ```
-Minha série é sobre ferramentas de IA para programadores. O
-catálogo tem 200 itens. Amostra:
+Prepare o catálogo real desta fábrica na pasta local.
+Leia PROJETO.md e AMBIENTE.md.
+Minha fonte está em: [ARQUIVO OU URL]
 
-| id | nome | categoria | preco_mes | tem_api | url_oficial |
-| 1  | Cursor | editor | 20 | sim | https://cursor.sh |
-| 2  | Copilot | editor | 10 | sim | https://github.com/copilot |
-| 3  | v0 | gerador | 20 | sim | https://v0.dev |
-| 4  | Cody | chat | 0 | sim | https://sourcegraph.com/cody |
-| 5  | Continue | editor | 0 | sim | https://continue.dev |
-| 6  | Aider | chat | 0 | sim | https://aider.chat |
-| 7  | Devin | agente | 500 | sim | https://devin.ai |
-| 8  | Phind | chat | 0 | sim | https://phind.com |
-| 9  | Codeium | editor | 0 | sim | https://codeium.com |
-| 10 | Tabnine | editor | 12 | sim | https://tabnine.com |
+Leia a fonte e proponha as colunas necessárias.
+Identifique dois eixos úteis para diferenciar a copy.
+Explique a escolha com exemplos dos dados existentes.
+Se uma informação não estiver na fonte, não a invente.
+Marque-a como pendente e indique o que falta confirmar.
+
+Crie 01-catalogo/catalogo.csv em UTF-8, com IDs
+estáveis, fonte, data de coleta e status dos itens.
+Guarde a entrada original sem sobrescrevê-la.
+Crie 01-catalogo/ESQUEMA.md explicando as colunas.
+
+Crie scripts/validar_catalogo.py e execute-o usando
+o Python do projeto. Confira IDs duplicados,
+campos obrigatórios vazios, valores inválidos
+e categorias que não existem no esquema.
+Dados ausentes não podem virar preço zero.
+
+Salve logs/catalogo.json com contagens e pendências.
+Mostre uma amostra para eu comparar com a fonte.
+Corrija erros de importação e execute novamente.
+Não exclua silenciosamente os itens problemáticos.
+Mostre o que ficou pronto e o que ainda está bloqueado.
 ```
 
-## Variações
+## Como conferir a entrega
 
-**Se você ainda não tem linhas:** adicione "Me dê 10 linhas de exemplo para o tema [TEMA], inventadas mas realistas. Use-as como base para a análise."
+Confira os arquivos na pasta e o relatório da execução. Código escrito na conversa, sem arquivo criado e sem teste, não comprova a implementação.
 
-**Se você já tem mais de 100 linhas:** adicione "Analise apenas as primeiras 30 linhas; eu vou validar que o padrão se mantém nas outras."
+A preparação e as correções com o agente usam o modelo escolhido. O lote determinístico deve rodar em Python sem chamadas a modelos. Usar o iniciador local evita abrir uma nova conversa apenas para repetir o lote.
 
-## O que conferir depois
+## Origem
 
-- Os 2 eixos sugeridos têm entre 3 e 6 valores cada?
-- A IA sugeriu colunas novas que você consegue obter?
-- A estrutura final cabe no Google Sheets sem fórmulas complicadas?
+- Capítulo: 03.
+- Seção do livro: Prompt para colar no agente.
+- Revisão: execução local com Claude Code ou OpenCode.
 
-## Saída esperada
-
-A IA devolve (a) lista de colunas úteis vs metadados, (b) dois eixos com 3 a 6 valores cada, (c) sugestões de colunas novas, (d) estrutura final da planilha.
+Todos os direitos reservados a Thulio Bittencourt. Repositório sem licença aberta.
